@@ -3,3 +3,22 @@
 .breadcrumb-item + .breadcrumb-item::before {
     content: "|";
 }
+
+.navbar-brand {
+  background-color: #6ca4a4;
+  padding: 20px;
+  margin-left: 20px;
+  color: white;
+  
+  
+}
+ 
+.navbar {
+    padding: 0%;
+}
+
+/*
+.navbtn {
+    background-color: aqua;
+    
+}
