@@ -1,24 +1,80 @@
 
-/* This is a style to have the breadcrumb dividers be different*/
-.breadcrumb-item + .breadcrumb-item::before {
-    content: "|";
+
+/*navbar css*/ 
+
+.navbar {
+    padding: 0%;
+    background-color: #ffffff!important;
+    justify-content: initial;
 }
 
 .navbar-brand {
-  background-color: #6ca4a4;
-  padding: 20px;
-  margin-left: 20px;
-  color: white;
-  
-  
-}
- 
-.navbar {
-    padding: 0%;
+    background-color: #6ca4a4;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+
+
+a {
+    color: #b1afae;
 }
 
-/*
-.navbtn {
-    background-color: aqua;
+
+
+
+
+
+
+/*Breadcrumb css*/
+
+/* This is a style to have the breadcrumb dividers be different*/
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "|";
+    background-color: none;
+    color: #e1dddb;
+}
+
+.breadcrumb-item.active {
+    color: #b1afae;
+}
+
+.breadcrumb {
+    background-color: #ffffff;
+    position: absolute;
+    right: 10px;
+    top: 3px;
+
+}
+
+@media screen and (max-width: 640px) {
     
+    .navbar-brand {
+        background-color: pink;
+        padding: 10px;
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        float: left;
+        clear: left;
+      }
+    
+
+      .breadcrumb {
+        background-color: #ffffff;
+        position: static;
+    
+    }
+
+    nav {
+        margin-left: 50;
+    }
+
+    .navbar-toggler {
+        display: none;
+    
+
 }
