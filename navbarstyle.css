@@ -66,12 +66,11 @@ a {
       .breadcrumb {
         background-color: #ffffff;
         position: static;
+        margin-left: 300px;
     
     }
 
-    nav {
-        margin-left: 50;
-    }
+    
 
     .navbar-toggler {
         display: none;
