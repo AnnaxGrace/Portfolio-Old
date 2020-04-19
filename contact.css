@@ -35,3 +35,21 @@ h1 {
     border-bottom: 2px solid #ececec
 
 }
+
+.btn-grn {
+    background-color: #6ca4a4;
+    color: white;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+   
+}
+
+.copyright {
+    margin-bottom: 0px; 
+    padding: 20px;
+    
+}
