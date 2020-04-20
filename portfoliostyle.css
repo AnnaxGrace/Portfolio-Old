@@ -31,54 +31,38 @@ h1 {
 
 }
 
-img {
-    height: 200px;
-    width: 200px;
-}
-
-.relative {
-    position: relative;
-    height: 200px;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    background: #eee;
-  }
-  
-  .absolute {
-    position: absolute;
-    right: -30px;
-    bottom: 0;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    background: #999;
-  }
 
   .btnstyle {
       width: 100%;
       background-color: #6ca4a4;
+      font: white;
   }
 
-/*
-.img-responsive {
+  .img-wrapper {
+    position: relative;
+   }
+  
+  .img-responsive {
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
-*/
-.img-overlay {
+  
+  .img-overlay {
     position: absolute;
-    right: -30px;
-    bottom: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    z-index: 20px;
   }
-
   
   .img-overlay:before {
     content: ' ';
     display: block;
     /* adjust 'height' to position overlay content vertically */
-    height: 50%;
-  } 
+    height: 87%;
+  }
+  
   
