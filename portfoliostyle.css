@@ -65,4 +65,15 @@ h1 {
     height: 87%;
   }
   
+  footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+   
+}
   
+.copyright {
+    margin-bottom: 0px; 
+    padding: 20px;
+    
+}
