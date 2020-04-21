@@ -70,10 +70,18 @@ a {
     
     }
 
-    
-
     .navbar-toggler {
         display: none;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+
+    .breadcrumb {
+        background-color: #ffffff;
+        position: static;
+        margin-left: 100px;
+    
+    }
 }

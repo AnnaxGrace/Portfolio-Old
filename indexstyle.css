@@ -70,3 +70,15 @@ footer {
     }
 
 }
+
+
+@media screen and (min-width: 970px) {
+
+    
+
+    
+    .main-content {
+        margin-right: 35%;
+    }
+
+}
