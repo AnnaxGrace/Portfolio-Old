@@ -30,7 +30,7 @@ h2 {
 
 }
 
-img {
+.profilePic {
     width: 30%;
     height: 75%;
     padding: 30px;
@@ -82,6 +82,13 @@ footer {
     .float-left {
         margin-right: 100%;
     }
+
+    .profilePic {
+        width: 175px !important;
+        height: 200px !important;
+       
+    }
+
 
 }
 

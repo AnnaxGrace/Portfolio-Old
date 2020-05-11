@@ -58,22 +58,15 @@ a:hover {
 @media screen and (max-width: 640px) {
     
     .navbar-brand {
-        background-color: #ffffff;
-        padding: 10px;
-        color: navy;
-        margin-left: 0px;
-        margin-right: 0px;
-        align-self: center;
-        text-align: center;
-        width: 100%;
+       
         float: left;
         clear: left;
-      }
-    
+        
+        
+    }
 
       .breadcrumb {
         background-color: navy;
-        position: static;
         margin-left: 200px;
     
     }
@@ -84,10 +77,10 @@ a:hover {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 200px) {
 
     .breadcrumb {
-        background-color: #ffffff;
+        background-color: navy;
         position: static;
         margin-left: 100px;
     
