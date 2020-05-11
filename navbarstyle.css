@@ -21,7 +21,14 @@ a {
     color: #ffffff;
 }
 
+a:hover {
+    color: #ff6666;
+}
 
+.navbar-icon {
+    height: 80px;
+    width: 150px;
+}
 
 
 
