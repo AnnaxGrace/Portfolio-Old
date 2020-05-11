@@ -4,20 +4,21 @@
 
 .navbar {
     padding: 0%;
-    background-color: #ffffff!important;
+    background-color: navy!important;
     justify-content: initial;
 }
 
 .navbar-brand {
-    background-color: #6ca4a4;
+    background-color: navy;
     padding: 10px;
     margin-left: 10px;
-    color: white;
+    color: #ff6666 !important;
+    text-shadow: 2px 2px navy;
   }
 
 
 a {
-    color: #b1afae;
+    color: #ffffff;
 }
 
 
@@ -32,15 +33,15 @@ a {
 .breadcrumb-item + .breadcrumb-item::before {
     content: "|";
     background-color: none;
-    color: #e1dddb;
+    color: black;
 }
 
 .breadcrumb-item.active {
-    color: #b1afae;
+    color: #ff6666;
 }
 
 .breadcrumb {
-    background-color: #ffffff;
+    background-color: navy;
     position: absolute;
     right: 10px;
     top: 3px;
@@ -50,9 +51,9 @@ a {
 @media screen and (max-width: 640px) {
     
     .navbar-brand {
-        background-color: pink;
+        background-color: #ffffff;
         padding: 10px;
-        color: white;
+        color: navy;
         margin-left: 0px;
         margin-right: 0px;
         align-self: center;
@@ -64,7 +65,7 @@ a {
     
 
       .breadcrumb {
-        background-color: #ffffff;
+        background-color: navy;
         position: static;
         margin-left: 200px;
     
