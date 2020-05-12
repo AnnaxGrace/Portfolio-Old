@@ -7,8 +7,9 @@
     margin: 0 auto;
     padding: 50px 50px 50px 49px; 
     position: relative;
-    border-bottom: 5px solid #6ca4a4;
     min-height: 100%;
+    border-bottom: 5px solid #ff6666;
+    border-top: dashed 5px #ff6666; 
     
 }
 
@@ -38,6 +39,7 @@ header {
     right: 0%;
     bottom: 0%;
     left: 0%;
+    border: solid 2px navy;
 
 }
 
@@ -48,7 +50,7 @@ h1{
 }
 
 h2 {
-    color: #6ca4a4;
+    color: #ff6666;
     background-color: white;
     width: 97%;
     padding-left: 0px;
@@ -59,12 +61,12 @@ h2 {
 }
 
 .btn-grn {
-    background-color: #6ca4a4;
+    background-color: #ff6666;
     color: white;
 }
 
 footer {
-    background-color: #666666;
+    background-color: navy;
     color: white;
     text-align: center;
    
@@ -76,13 +78,3 @@ footer {
     
 }
 
-@media screen and (min-width: 970px) {
-
-    
-
-    
-    .main-content {
-        margin-right: 35%;
-    }
-
-}
