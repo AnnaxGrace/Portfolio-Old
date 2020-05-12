@@ -16,6 +16,16 @@ body {
     height: 100%;
 }
 
+header {
+    border-bottom: dashed 5px #ff6666; 
+}
+
+.icon {
+    color: navy;
+    padding-top: 5px;
+    padding-right: 15px;
+    float: right;
+}
 
 
 .main-content {
@@ -31,8 +41,13 @@ body {
 
 }
 
+h1{
+    color: navy;
+    float: left;
+    padding-left: 15px;
+}
 
-h1 {
+h2 {
     color: #6ca4a4;
     background-color: white;
     width: 97%;

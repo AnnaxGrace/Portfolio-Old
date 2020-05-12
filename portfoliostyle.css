@@ -21,7 +21,18 @@
 
 }
 
-h1 {
+header {
+  border-bottom: dashed 5px #ff6666; 
+}
+
+.icon {
+  color: navy;
+  padding-top: 5px;
+  padding-right: 15px;
+  float: right;
+}
+
+h2 {
     color: #6ca4a4;
     background-color: white;
     width: 100%;

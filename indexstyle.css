@@ -6,7 +6,7 @@
     margin: 0 auto;
     padding: 50px 50px 50px 49px; 
     position: relative;
-    border-bottom: 5px solid #6ca4a4;
+    border-bottom: 5px solid #ff6666;
     border-top: dashed 5px #ff6666; 
 }
 
@@ -31,8 +31,8 @@ h2 {
 }
 
 .profilePic {
-    width: 30%;
-    height: 75%;
+    width: 25%;
+    height: 80%;
     padding: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -48,9 +48,6 @@ h2 {
 
 
 
-
-
-
 .main-content {
     padding: 30px;
     margin-bottom: 75%;
@@ -61,11 +58,12 @@ h2 {
     right: 0%;
     bottom: 0%;
     left: 0%;
+    border: solid 2px navy;
 
 }
 
 footer {
-    background-color: #666666;
+    background-color: navy;
     color: white;
     text-align: center;
    
