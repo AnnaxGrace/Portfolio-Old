@@ -99,3 +99,22 @@ a:hover {
   color: #ff6666 !important;
 }
 
+@media screen and (max-width: 640px) {
+
+  
+  /* .pdf{
+      width: 100px !important;
+      height: 200px !important;
+
+  } */
+
+  .img-wrapper{
+    margin-bottom: 60px;
+
+  }
+
+  #container {
+    padding: 0px;
+  }
+
+}
