@@ -102,11 +102,11 @@ a:hover {
 @media screen and (max-width: 640px) {
 
   
-  /* .pdf{
-      width: 100px !important;
-      height: 200px !important;
+  .pdf{
+      width: 100% !important;
+      height: 95% !important;
 
-  } */
+  }
 
   .img-wrapper{
     margin-bottom: 60px;
