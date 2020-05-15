@@ -17,7 +17,7 @@ There are three html files. Each are connected through a navbar. Each file has a
 ### License
 MIT
 ### Contributing
-Contributors are allowed. Follow contributor-covenant.
+Contributors are not allowed. This is a portfolio/resume project.
 ### Tests
 npm tests
 ### Questions

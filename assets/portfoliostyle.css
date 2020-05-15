@@ -11,7 +11,7 @@
 
 .main-content {
     padding: 30px;
-    margin-bottom: 75%;
+    margin-bottom: 5%;
     padding-bottom: 30px; 
     background-color: white;
     position: relative;
@@ -51,6 +51,10 @@ h2 {
       color: #ffffff;
   }
 
+  .btnstyle:hover {
+    color: #ff6666 !important;
+  }
+
   .img-wrapper {
     position: relative;
     border: solid 2px #ff6666;
@@ -75,7 +79,7 @@ h2 {
   .img-overlay:before {
     content: ' ';
     display: block;
-    height: 87%;
+    height: 76%;
   }
   
   footer {
