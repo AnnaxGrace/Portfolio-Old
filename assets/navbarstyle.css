@@ -12,8 +12,8 @@
     background-color: navy;
     padding: 10px;
     margin-left: 10px;
-    color: #ff6666 !important;
-    text-shadow: 2px 2px navy;
+    color: #ffffff !important;
+    text-emphasis: italic;
   }
 
 
@@ -26,8 +26,11 @@ a:hover {
 }
 
 .navbar-icon {
-    height: 80px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    padding-left: 0px;
+    border-radius: 30px;
 }
 
 
