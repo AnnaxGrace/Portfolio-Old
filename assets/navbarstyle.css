@@ -64,15 +64,14 @@ a:hover {
     
     .navbar-brand {
        
-        float: left;
-        clear: left;
-        
+       margin-bottom: 20%;
         
     }
 
-      .breadcrumb {
+    .breadcrumb {
         background-color: navy;
-        margin-left: 200px;
+        margin-left: 10%;
+        margin-top: 20%;
     
     }
 
@@ -87,7 +86,14 @@ a:hover {
     .breadcrumb {
         background-color: navy;
         position: static;
-        margin-left: 100px;
+        margin-left: 10%;
+        margin-top: 20%;
     
     }
+
+    .navbar-brand {
+       
+        margin-bottom: 20%;
+         
+     }
 }
