@@ -95,6 +95,11 @@ h2 {
     
 }
 
+.project-description {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 a:hover {
   color: #ff6666 !important;
 }
