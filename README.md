@@ -13,7 +13,7 @@ This website links to my projects and has a bio and resume as well.
 ### Installation
 npm i
 ### Usage
-There are three html files. Each are connected through a navbar. Each file has a corresponding css file.
+There are two html files. Each are connected through a navbar. Each file has a corresponding css file.
 ### License
 MIT
 ### Contributing
