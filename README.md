@@ -11,9 +11,9 @@ This website links to my projects and has a bio and resume as well.
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation
-npm i
+npm i in the portfolio-react choices
 ### Usage
-There are two html files. Each are connected through a navbar. Each file has a corresponding css file.
+This is a react app. You run it locally in portfolio-react in the terminal or bash with npm start.
 ### License
 MIT
 ### Contributing

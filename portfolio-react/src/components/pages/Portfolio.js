@@ -1,57 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
+import React from "react";
+import NavTabs from "../NavTabs"
+import "./portfoliostyle.css"
 
-    <title>Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/navbarstyle.css">
-    <link rel="stylesheet" type="text/css" href="assets/portfoliostyle.css">
-    <link rel="shortcut icon" type="image/png" href="assets/Images/RosewebsiteTransparent.png">
-
-</head>
-
-
-
-<body>
-
-    <header>
-    
-        <div class ="row">
-            <div class = "col-12">
-                <div>
-                <a href="https://github.com/AnnaxGrace" target = "_blank" class = "fab fa-github icon fa-3x d-flex justify-content-end" ></a>
-                <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" class = "fab fa-linkedin icon fa-3x d-flex justify-content-end" ></a>
-                <a href="mailto:anna.grace.conover@gmail.com" class = "fas fa-envelope icon fa-3x d-flex justify-content-end" ></a>
-                </div>
-            </div>
-        </div>
-    
-        </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-        
-        <a class="navbar-brand" href="https://annaxgrace.github.io/Portfolio/">
-            <img src = "assets/Images/RoseWebsiteWhite.png" alt = "signature icon" class = "navbar-icon"/>&nbsp;&nbsp;Let Me Build Your Story
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="https://annaxgrace.github.io/Portfolio/">About</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
-                <!-- <li class="breadcrumb-item"><a href="https://annaxgrace.github.io/Portfolio/contact.html">Contact</a></li> -->
-            </ol>
-        </nav>
-
-
-    </nav>
-
-    <div id="container">
+function Portfolio() {
+  return (
+    <div>
+       <NavTabs />
+       <div id="container">
 
         <div class="main-content">
 
@@ -65,7 +20,7 @@
 
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="img-wrapper">
-                        <img class="img-responsive" src="assets/Images/MealPlanner.png" alt="MealPlanner">
+                        <img class="img-responsive" src={require("./Images/MealPlanner.png")} alt="MealPlanner"/>
                         <div class="img-overlay">
                             <button class = "btn btnstyle" type = "button">
                                 <h5>Meal Planner</h5>
@@ -113,7 +68,7 @@
 
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="img-wrapper">
-                        <img class="img-responsive" src="assets/Images/SchedulerImage.png" alt="WorkScheduler">
+                        <img class="img-responsive" src={require("./Images/SchedulerImage.png")} alt="WorkScheduler"/>
                         <div class="img-overlay">
                             <button class = "btn btnstyle" type = "button">
                                 <h5>Workday Scheduler</h5>
@@ -149,7 +104,7 @@
 
                 <div class="col-md-6 col-sm-12 col-xs 12">
                     <div class="img-wrapper">
-                        <img class="img-responsive" src="assets/Images/SelfCareSidekick.png" alt="SelfCareSidekick">
+                        <img class="img-responsive" src={require("./Images/SelfCareSidekick.png")} alt="SelfCareSidekick"/>
                         <div class="img-overlay">
                             <button class = "btn btnstyle" type = "button">
                                 <h5>Self-Care Sidekick</h5>
@@ -198,7 +153,7 @@
 
                 <div class="col-md-6 col-sm-12 col-xs 12">
                     <div class="img-wrapper">
-                        <img class="img-responsive" src="assets/Images/NoteTaker.png" alt="NoteTaker">
+                        <img class="img-responsive" src={require("./Images/NoteTaker.png")} alt="NoteTaker"/>
                         <div class="img-overlay">
                             <button class = "btn btnstyle" type = "button">
                                 <h5>NoteTaker</h5>
@@ -236,7 +191,7 @@
 
                 <div class="col-md-6 col-sm-12 col-xs 12">
                     <div class="img-wrapper">
-                        <img class="img-responsive" src="assets/Images/Burgers.png" alt="Burgers">
+                        <img class="img-responsive" src={require("./Images/Burgers.png")} alt="Burgers"/>
                         <div class="img-overlay">
                             <button class = "btn btnstyle" type = "button">
                                 <h5>Burgers</h5>
@@ -274,7 +229,7 @@
 
                 <div class="col-md-6 col-sm-12 col-xs 12">
                     <div class="img-wrapper">
-                        <img class="img-responsive" src="assets/Images/CodeQuizPortfolio.png" alt="CodeQuiz">
+                        <img class="img-responsive" src={require("./Images/CodeQuizPortfolio.png")} alt="CodeQuiz"/>
                         <div class="img-overlay">
                             <button class = "btn btnstyle" type = "button">
                                 <h5>Code Quiz</h5>
@@ -311,7 +266,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12">
                     <h2>Resume</h2>
-                    <embed class = "pdf" src="assets/Anna Grace Conover Resume1.pdf" width="800px" height="1100px" />
+                    <embed class = "pdf" src={require("./Images/Anna Grace Conover Resume1.pdf")} width="800px" height="1100px" />
                 </div>
             </div>
 
@@ -323,18 +278,11 @@
         
 
     </div>
-
     <footer>
-        <p class="copyright">&copy; Anna Conover</p>
-    </footer>
+            <p class="copyright">&copy; Anna Conover</p>
+        </footer>
+    </div>
+  );
+}
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</body>
-
-
-
-</html>
+export default Portfolio;
