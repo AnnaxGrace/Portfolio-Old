@@ -23,16 +23,7 @@
 
 }
 
-header {
-  border-bottom: dashed 5px #ff6666; 
-}
 
-.icon {
-  color: navy;
-  padding-top: 5px;
-  padding-right: 15px;
-  float: right;
-}
 
 h2 {
     color: #ff6666;
@@ -100,9 +91,9 @@ h2 {
   margin-bottom: 15px;
 }
 
-a:hover {
+/* a:hover {
   color: #ff6666 !important;
-}
+} */
 
 @media screen and (max-width: 640px) {
 

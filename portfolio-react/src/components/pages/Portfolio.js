@@ -5,7 +5,7 @@ import "./portfoliostyle.css"
 function Portfolio() {
   return (
     <div>
-       <NavTabs />
+       {/* <NavTabs /> */}
        <div id="container">
 
         <div class="main-content">
@@ -149,7 +149,7 @@ function Portfolio() {
 
             </div>
 
-            <div class="row">
+            {/* <div class="row">
 
                 <div class="col-md-6 col-sm-12 col-xs 12">
                     <div class="img-wrapper">
@@ -256,9 +256,9 @@ function Portfolio() {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
-            </div>
+            {/* </div> */}
 
         </div>
 

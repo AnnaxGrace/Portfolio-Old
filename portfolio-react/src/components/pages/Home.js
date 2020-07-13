@@ -1,20 +1,30 @@
 import React from "react";
 import NavTabs from "../NavTabs"
 import Header from "../Header"
+import Banner from "../Banner/banner"
 import "./indexstyle.css"
 
 
 function Home() {
   return (
     <div>
-        <Header />
-        <NavTabs />
+        {/* <Header /> */}
+        {/* <NavTabs /> */}
+        <Banner />
 
         <div id="container">
 
+        <div className="hero-image">
+            <div className="hero-text">
+                <h1>I am John Doe</h1>
+                <p>And I'm a Photographer</p>
+                <button>Hire me</button>
+            </div>
+        </div>
         
             <div class="main-content">
-                <div class="row">
+
+                <div className="row">
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <h2>About Me</h2>
                     </div>
@@ -22,8 +32,8 @@ function Home() {
             
                 <main>
 
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div className="row">
+                        <div className="col-md-12 col-sm-12 col-xs-12">
                             <img src={require("./Images/AnnaConover0132.jpg")} alt="Anna Conover " class="float-left profilePic"/>
                             <p>
                                 Hello! My name is Anna Conover and I am a full-stack developer. 
@@ -54,7 +64,7 @@ function Home() {
         </div>
 
         <footer>
-            <p class="copyright">&copy; Anna Conover</p>
+            <p className="copyright">&copy; Anna Conover</p>
         </footer>
     </div>
   );

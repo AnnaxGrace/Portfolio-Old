@@ -4,12 +4,12 @@
 
 .navbar {
     padding: 0%;
-    background-color: navy!important;
+    background-color: #2a458e!important;
     justify-content: initial;
 }
 
 .navbar-brand {
-    background-color: navy;
+    background-color: #2a458e;
     padding: 10px;
     margin-left: 10px;
     color: #ffffff !important;
@@ -46,6 +46,7 @@ a:hover {
     content: "|";
     background-color: none;
     color: black;
+    z-index: 3;
 }
 
 .breadcrumb-item.active {
@@ -53,10 +54,11 @@ a:hover {
 }
 
 .breadcrumb {
-    background-color: navy;
+    background-color: none;
     position: absolute;
     right: 10px;
     top: 3px;
+    z-index: 3;
 
 }
 
