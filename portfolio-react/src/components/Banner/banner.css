@@ -24,53 +24,9 @@
     color: white;
   }
 
-  .links {
-    position: absolute;
-    /* top: 60%; */
-    left: 15%;
-    font-size: 20px;
-    color:   #c09793 ; 
-  }
 
-  .links:hover{
-    color: #2a458e !important;
 
-  }
-
-  #about-text {
-    top: 60%; 
-  }
-
-  #portfolio-text {
-      top: 66%;
-      margin: 0px;
-      padding: 0px;
-      left: 20%;
-  }
-
-  #portfolio-text:hover {
-      color: #2a458e !important;
-  }
-
-  #resume-text {
-    top: 70%;
-}
-
-  .name {
-      text-align: center;
-      margin-top: 100px;
-      font-size: 50px;
-      /* position: absolute;
-      top: 10%;
-      left: 20%; */
-      z-index: 3;
-  }
-
-  .side {
-      background-color: #c7cdd3;
-      background-color: white;
-  }
-
+ 
 #show {
     display: block;
 }

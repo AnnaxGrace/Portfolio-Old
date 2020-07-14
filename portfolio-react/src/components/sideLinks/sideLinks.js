@@ -9,7 +9,7 @@ function SideLinks (props) {
         <div>
             <button type="button" className="btn btn-link links" id="about-text" onClick={props.aboutClick}> About Me </button>
             <Link
-            to="/portfolio/portfolio"
+            to="/Portfolio/portfolio"
             // className={location.pathname === "/portfolio" ? "nav-link active links" : "nav-link"}>
             className={location.pathname === "/portfolio" ? "about" : "links"} id="portfolio-text">
 

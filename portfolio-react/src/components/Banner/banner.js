@@ -94,7 +94,7 @@ function Banner () {
             {/* <div id = {aboutState} className="about"> */}
 
             </div>
-            <Portfolio />
+            {/* <Portfolio /> */}
             {/* <div className="col-2 justify-content-center"> */}
                 {/* <div className="name">
                     <p>

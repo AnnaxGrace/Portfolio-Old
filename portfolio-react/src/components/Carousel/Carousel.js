@@ -9,9 +9,44 @@ return (
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
-
-            <div className="carousel-item active m-t-20">
-                <img src={require("../pages/Images/MealPlanner.png")} className="d-block w-100" alt="..." />
+            <div className="row">
+                <div ClassName="col-md-5 col-sm-5 col-xs-5">
+                    {/* <div className="carousel-item active m-t-20"> */}
+                        <img src={require("../pages/Images/MealPlanner.png")} className="w-50" alt="..." />
+                    {/* </div> */}
+                </div>
+                <div className="col-md-5 col-sm-12 col-xs-12">
+                    <div class = "project-description">
+                        <ul>
+                            <li>
+                                This one-stop-shop meal planning website tackles the issue of the mental load in households by allowing planning by multiple chefs.
+                            </li>
+                            <li>
+                                Technologies used
+                                <ul>
+                                    <li>
+                                        Front end uses HTML, CSS, and JavaScript/jQuery
+                                    </li>
+                                    <li>
+                                        Back end uses node.js with express, passport, passport-session, nodemailer, bycrypt, mySql, and sequelize
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Guest Account
+                                <ul>
+                                    <li>
+                                        email: planner@mail.com
+                                    </li>
+                                    <li>
+                                        password: Gue$tAcnt1
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            {/* </div> */}
                 <div className="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
