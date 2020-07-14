@@ -2,13 +2,29 @@ import React, { useState } from "react";
 import "./banner.css"
 import Carousel from "../Carousel/Carousel"
 import Portfolio from "../pages/Portfolio";
+import { Link, useLocation } from "react-router-dom";
+import SideNav from "../SideNav/sideNav";
+
 
 function Banner () {
     const [aboutState, setAboutState] = useState("hide")
 
+    const location = useLocation();
+    console.log(location)
+
+
     function aboutClick () {
         setAboutState("show")
     }
+
+    function aboutResume () {
+        setAboutState("show")
+    }
+
+    function aboutPortfolio () {
+        setAboutState("show")
+    }
+
     return (
 
         <div className="row">
@@ -25,35 +41,13 @@ function Banner () {
                 </p>
             </div>    */}
 
-<div className="col-2 justify-content-center side">
-                <div className="name">
-                    <p>
-                    Anna
-                    </p>
-                    <p>
-                    Grace  
-                    </p>
-                    <p>
-                    Conover    
-                    </p>
-                </div>
-                <div className="justify-content-center">
-                    <a href="https://github.com/AnnaxGrace" target = "_blank" className = "fab fa-github icon fa-3x d-flex" ></a>
-                    <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" ></a>
-                    <a href="mailto:anna.grace.conover@gmail.com" className = "fas fa-envelope icon fa-3x d-flex " ></a>
-                </div>
-                {/* <button type="button" className="btn btn-link"> About Me </button> */}
-                {/* <div className="name">
-                    <p>
-                    Anna
-                    </p>
-                    <p>
-                    Grace  
-                    </p>
-                    <p>
-                    Conover    
-                    </p>
-                </div> */}
+            <div className="col-2 justify-content-center side">
+                <SideNav 
+                    aboutClick={aboutClick}
+                    aboutResume={aboutResume}
+                    location={location}
+                />
+
             </div>
             {/* <Carousel /> */}
             <div className="col-10 p-0 mb-3">
@@ -73,7 +67,7 @@ function Banner () {
                     Let me build your story
                     {/* <button type="button" className="btn btn-link"> About Me </button> */}
                 </div>
-                <button type="button" className="btn btn-link links" onClick={aboutClick}> About Me </button>
+                {/* <button type="button" className="btn btn-link links" onClick={aboutClick}> About Me </button> */}
                 <div id = {aboutState} className="about">
                     {/* <img src={require("../pages/Images/AnnaConover0132.jpg")} alt="Anna Conover " class="float-left profilePic"/> */}
                         <div className="about-p">

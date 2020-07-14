@@ -26,11 +26,35 @@
 
   .links {
     position: absolute;
-    top: 1%;
+    /* top: 60%; */
     left: 15%;
     font-size: 20px;
-    color:  white; 
+    color:   #c09793 ; 
   }
+
+  .links:hover{
+    color: #2a458e !important;
+
+  }
+
+  #about-text {
+    top: 60%; 
+  }
+
+  #portfolio-text {
+      top: 66%;
+      margin: 0px;
+      padding: 0px;
+      left: 20%;
+  }
+
+  #portfolio-text:hover {
+      color: #2a458e !important;
+  }
+
+  #resume-text {
+    top: 70%;
+}
 
   .name {
       text-align: center;
@@ -61,7 +85,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 7%;
+    top: 0;
     z-index: 3;
     /* opacity: 3; */
 }
@@ -70,7 +94,7 @@
     width: 750px;
     color: white;
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 3%;
     font-size: 20px;
     /* right: 5%;  */

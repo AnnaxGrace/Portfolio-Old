@@ -19,7 +19,7 @@ function NavTabs() {
             <span class="navbar-toggler-icon"></span>
         </button>   */}
         <Link
-                        to="/portfolio"
+                        to="/portfolio/portfolio"
                         className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
                         Portfolio
          </Link>
