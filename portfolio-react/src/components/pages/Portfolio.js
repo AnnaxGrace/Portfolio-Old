@@ -5,7 +5,9 @@ import SideNav from "../SideNav/sideNav";
 import Carousel from "../Carousel/Carousel";
 
 function Portfolio() {
-  
+  function sidekick () {
+      console.log("sidekick")
+  }
 
   return (
     <div>
@@ -23,6 +25,19 @@ function Portfolio() {
                             <img className="img-responsive" src={require("./Images/MealPlanner.png")} alt="MealPlanner"/>
                             <div className="img-overlay">
                                 <button className="btn btnstyle" type = "button">
+                                    <div className="dropdown">
+                                        <button className="btn btn-secondary dropdown-toggle drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           More Projects
+                                        </button>
+                                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button type="button" className="btn btn-link links dropdown-item" id="Self-Care Sidekick" onClick={sidekick}> Self-Care Sidekick </button>
+                                            <button type="button" className="btn btn-link links dropdown-item" id="Self-Care Sidekick" onClick={sidekick}> Self-Care Sidekick </button>
+                                            <button type="button" className="btn btn-link links dropdown-item" id="Self-Care Sidekick" onClick={sidekick}> Self-Care Sidekick </button>
+                                            <button type="button" className="btn btn-link links dropdown-item" id="Self-Care Sidekick" onClick={sidekick}> Self-Care Sidekick </button>
+
+
+                                        </div>
+                                    </div>
                                     <p className="button-header">CookingTogether</p>
                                     <a href= "https://annaxgrace.github.io/MealPlanner/" target = "_blank">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href= "https://github.com/AnnaxGrace/MealPlanner" target = "_blank">GitHub Repository</a>
