@@ -10,7 +10,6 @@ function Banner () {
     const [aboutState, setAboutState] = useState("hide")
 
     const location = useLocation();
-    console.log(location)
 
 
     function aboutClick () {
