@@ -6,7 +6,7 @@ return (
 <div>
 <div className="col-md-12 col-sm-12 col-xs-12 image-style">
     <div className="img-wrapper description">
-        <img className="img-responsive" src={require("../pages/Images/Once.png")} alt="Once Upon an Adventure Image"/>
+        <img className="img-responsive" src={require("../pages/Images/Once1.png")} alt="Once Upon an Adventure Image"/>
         <div className="img-overlay">
             <button className="btn btnstyle" type = "button">
                 {/* <div className="dropdown">

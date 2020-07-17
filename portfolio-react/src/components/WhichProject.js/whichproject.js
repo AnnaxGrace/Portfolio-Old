@@ -41,7 +41,7 @@ function WhichProject (props) {
         return <Scheduler 
         sidekick={props.sidekick}
         once={props.once}
-        cooking={props.cookingTogether}
+        cookingTogether={props.cookingTogether}
         scheduler={props.scheduler}
         />
     }

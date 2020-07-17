@@ -1,11 +1,12 @@
 import React from "react"
 
 function Scheduler (props) {
+    console.log(props)
 return (
 <div>
 <div className="col-md-12 col-sm-12 col-xs-12 image-style">
     <div className="img-wrapper description">
-        <img className="img-responsive" src={require("../pages/Images/SchedulerImage.png")} alt="WorkDay Scheduler Image"/>
+        <img className="img-responsive" src={require("../pages/Images/Scheduler2.png")} alt="WorkDay Scheduler Image"/>
         <div className="img-overlay">
             <button className="btn btnstyle" type = "button">
                 {/* <div className="dropdown dropdown-style">
