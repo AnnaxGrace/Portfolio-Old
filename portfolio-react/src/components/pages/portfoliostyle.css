@@ -48,10 +48,16 @@ h2 {
       width: 100%;
       background-color: #2a458e ;
       color: #ffffff;
+      border-radius: 0%;
+  }
+
+  .button-header {
+    font-size: 45px;
+    /* margin-right: 20%; */
   }
 
   .btnstyle:hover {
-    color: #ff6666 !important;
+    color: #c09793!important;
   }
 
   .img-wrapper {
@@ -73,13 +79,46 @@ h2 {
 
    }
 
+   
    .description:hover {
     background-color:rgba(0,0,0,0.4);
     position: relative;
     top: 0;
     z-index: 7;
    } */
+
+   .project-description {
+    /* margin-top: 15%; */
+    position: absolute;
+    background-color:rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
+    top: 17%;
+    left: 0%;
+    height: 91%;
+    width: 100%;
+    padding-top: 15%;
+    font-size: 25px;
   
+    /* margin-bottom: 15px; */
+  }
+
+  .dropdown-style {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+  }
+  
+   .project-description:hover {
+    position: absolute;
+    background-color:rgba(0,0,0,0.7);
+    color: white;
+    top: 17%;
+    left: 0%;
+    height: 83%;
+    width: 100%;
+    padding-top: 10%;
+    font-size: 25px;
+   }
   .img-responsive {
     width: 100%;
     height: 100%;
@@ -113,38 +152,43 @@ h2 {
     
 }
 
-#project-description {
-  /* margin-top: 15%; */
-  position: absolute;
-  background-color:rgba(0,0,0,0.7);
-  color: white;
-  top: 9%;
-  left: 0%;
-  height: 91%;
-  width: 100%;
-  padding-top: 15%;
-  font-size: 25px;
 
-  /* margin-bottom: 15px; */
+
+.drop {
+  color: #c09793;
+  background-color: #2a458e;
+  border-color: #2a458e;
+  padding-top: 5px;
+  margin-right: 20px;
+  float: left;
+  font-size: 30px;
 }
 
-/* ul { */
-  /* display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px; */
-  /* padding-inline-start: 10px; */
-/* } */
+.drop:hover {
+  background-color: #c09793;
+  color: #2a458e;
+}
 
-/* li {
-  margin-bottom: 10px;
-} */
+.drop:focus {
+  background-color: #c09793;
+  color: #2a458e;
+}
 
-/* a:hover {
-  color: #ff6666 !important;
-} */
+.dropdown-menu {
+  background-color: white;
+  height: 120px;
+  width: 300px;
+}
+
+
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
 
 @media screen and (max-width: 640px) {
 

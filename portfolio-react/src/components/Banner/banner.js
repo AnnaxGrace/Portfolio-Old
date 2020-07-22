@@ -8,38 +8,27 @@ import SideNav from "../SideNav/sideNav";
 
 function Banner () {
     const [aboutState, setAboutState] = useState("hide")
+    const [resumeState, setResumeState] = useState("hide")
 
     const location = useLocation();
-    console.log(location)
 
 
     function aboutClick () {
         setAboutState("show")
+        setResumeState("hide")
     }
 
     function aboutResume () {
-        setAboutState("show")
+        setAboutState("hide")
+        setResumeState("show")
     }
 
-    function aboutPortfolio () {
-        setAboutState("show")
-    }
+    
 
     return (
 
         <div className="row">
 
-            {/* <div className="col-1 hero-text">
-                <p>
-                Anna
-                </p>
-                <p>
-                Grace  
-                </p>
-                <p>
-                Conover    
-                </p>
-            </div>    */}
 
             <div className="col-2 justify-content-center side">
                 <SideNav 
@@ -49,20 +38,10 @@ function Banner () {
                 />
 
             </div>
-            {/* <Carousel /> */}
+
             <div className="col-10 p-0 mb-3">
                 <img src={require("../pages/Images/boatAnna2.png")} alt="Banner" className="banner"></img>
-                {/* <div className="name">
-                    <p>
-                    Anna
-                    </p>
-                    <p>
-                    Grace  
-                    </p>
-                    <p>
-                    Conover    
-                    </p>
-                </div> */}
+                
                 <div className="hero-text">
                     Let me build your story
                     {/* <button type="button" className="btn btn-link"> About Me </button> */}
@@ -91,26 +70,18 @@ function Banner () {
                             </p>
                         </div>
                 </div>
-            {/* <div id = {aboutState} className="about"> */}
+
+                <div id = {resumeState} className="resume">
+                    {/* <img src={require("../pages/Images/AnnaConover0132.jpg")} alt="Anna Conover " class="float-left profilePic"/> */}
+                    {/* <div class="row"> */}
+                        {/* <div class="col-md-12 col-xs-12 col-sm-12"> */}
+                            <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="800px" height="700px" />
+                        {/* </div> */}
+                    {/* </div> */}
+                </div>
 
             </div>
-            {/* <Portfolio /> */}
-            {/* <div className="col-2 justify-content-center"> */}
-                {/* <div className="name">
-                    <p>
-                    Anna
-                    </p>
-                    <p>
-                    Grace  
-                    </p>
-                    <p>
-                    Conover    
-                    </p>
-                </div> */}
-            {/* <a href="https://github.com/AnnaxGrace" target = "_blank" class = "fab fa-github icon fa-3x d-flex justify-content-end" ></a>
-                <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" class = "fab fa-linkedin icon fa-3x d-flex justify-content-end" ></a>
-                <a href="mailto:anna.grace.conover@gmail.com" class = "fas fa-envelope icon fa-3x d-flex justify-content-end" ></a>
-            </div> */}
+            
 
         </div>
     )
