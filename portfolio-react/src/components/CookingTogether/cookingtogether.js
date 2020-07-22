@@ -21,7 +21,7 @@ return (
                     </div>
                 </div> */}
                 <p className="button-header">CookingTogether</p>
-                <a href= "cooking-together.herokuapp.com/" target = "_blank">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href= "https://cooking-together.herokuapp.com/" target = "_blank">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href= "https://github.com/AnnaxGrace/MealPlanner" target = "_blank">GitHub Repository</a>
             </button>
             <div className="dropdown dropdown-style">

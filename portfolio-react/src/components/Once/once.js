@@ -21,8 +21,8 @@ return (
                     </div>
                 </div> */}
                 <p className="button-header">Once Upon An Adventure</p>
-                <a href= "onceuponanadventure.herokuapp.com/" target = "_blank">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href= "github.com/AnnaxGrace/once-upon-an-adventure"  target = "_blank">GitHub Repository</a>
+                <a href= "https://onceuponanadventure.herokuapp.com/" target = "_blank">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href= "https://github.com/AnnaxGrace/once-upon-an-adventure"  target = "_blank">GitHub Repository</a>
             </button>
             <div className="dropdown dropdown-style">
                     <button className="btn btn-secondary dropdown-toggle drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
