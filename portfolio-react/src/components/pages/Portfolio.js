@@ -4,7 +4,7 @@ import "./portfoliostyle.css"
 import SideNav from "../SideNav/sideNav";
 import Carousel from "../Carousel/Carousel";
 import CookingTogether from "../CookingTogether/cookingtogether";
-import WhichProject from "../WhichProject.js/whichproject";
+import WhichProject from "../whichProject/whichProject";
 
 // let project;
 
