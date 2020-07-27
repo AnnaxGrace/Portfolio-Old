@@ -5,19 +5,25 @@ import SideNav from "../SideNav/sideNav";
 
 function Banner () {
     const [aboutState, setAboutState] = useState("hide")
+    const [resumeState, setResumeState] = useState("hide")
 
 
     function aboutClick () {
         setAboutState("show")
+        setResumeState("hide")
     }
 
     function aboutResume () {
-        setAboutState("show")
+        setAboutState("hide")
+        setResumeState("show")
     }
+
+    
 
     return (
 
         <div className="row">
+
 
             <div className="col-2 justify-content-center side">
                 <SideNav 
@@ -26,8 +32,9 @@ function Banner () {
                 />
 
             </div>
+
             <div className="col-10 p-0 mb-3">
-                <img src={require("../pages/Images/boatAnna2.png")} alt="Back of Head of woman overlooking the ocean" className="banner"></img>
+                <img src={require("../pages/Images/boatAnna2.png")} alt="Banner" className="banner"></img>
                 
                 <div className="hero-text">
                     Let me build your story
@@ -53,7 +60,14 @@ function Banner () {
                         </div>
                 </div>
 
+                <div id = {resumeState} className="resume">
+                    
+                            <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="800px" height="700px" />
+                        
+                </div>
+
             </div>
+            
 
         </div>
     )
