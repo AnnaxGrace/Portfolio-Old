@@ -1,8 +1,8 @@
 [![made-with-VSCode](https://img.shields.io/badge/Made%20with-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 # Anna Grace Conover Portfolio
 
-<img src="portfolio-react/src/components/pages/Images/PortfolioHomepage.png"
-     alt="Log-in Page"
+<img src="./portfolio-react/src/components/pages/Images/PortfolioHomepage.png"
+     alt="Home Page"
      style="margin-right: 10px; height: 300px;" />
 
 
