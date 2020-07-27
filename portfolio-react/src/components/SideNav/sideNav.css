@@ -30,18 +30,23 @@
     top: 70%;
 }
 
-/* .name {
-      text-align: center;
-      margin-top: 100px;
-      font-size: 50px;
-      /* position: absolute;
-      top: 10%;
-      left: 20%; */
-      /* z-index: 3;
-      color: pink;
-}  */
 
   .side {
       background-color: #c7cdd3;
       background-color: white;
+  }
+
+  .icon-content {
+    color: rgba(0,0,0,0.6);
+    font-size: 1px;
+  }
+
+  .div-links:hover {
+    color: #c09793;
+  }
+
+  #git-link {
+    position: relative;
+    top:1%;
+    left: 4%;
   }

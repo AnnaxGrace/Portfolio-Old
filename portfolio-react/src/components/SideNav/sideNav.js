@@ -1,18 +1,9 @@
 import React from "react"
-import { Link, useLocation } from "react-router-dom";
 import WhichNav from "../whichNav/whichNav"
 import "./sideNav.css"
 
 function SideNav (props) {
 
-    const location = useLocation();
-
-    // function whichNav () {
-    //     if (props.location === "home") {
-    //         return <sideLinks />
-    //     }
-    //     return <sideLinks />
-    // }
 
 return (
     <div>
@@ -28,13 +19,32 @@ return (
                     </p>
                 </div>
                 <div className="justify-content-center">
-                    <a href="https://github.com/AnnaxGrace" target = "_blank" className = "fab fa-github icon fa-3x d-flex" ></a>
-                    <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" ></a>
-                    <a href="mailto:anna.grace.conover@gmail.com" className = "fas fa-envelope icon fa-3x d-flex " ></a>
+                    {/* <div className="github-div">
+                        <a href="https://github.com/AnnaxGrace" target = "_blank" className = "fab fa-github icon fa-3x d-flex " rel="noopener noreferrer"></a>
+                        <p id="git-link">githublink</p>
+                    </div>
+                    <div className="linkedin-div">
+                        <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                        <p id="git-link">githublink</p>
+                    </div>
+                    <div className="email-div">
+                        <a href="mailto:anna.grace.conover@gmail.com" className = "fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                        <p id="git-link">githublink</p>
+                    </div> */}
+                    <div class="div-links">
+                        <a href="https://github.com/AnnaxGrace" target = "_blank" className = "fab fa-github icon fa-3x d-flex " rel="noopener noreferrer"></a> 
+                        <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                        <a href="mailto:anna.grace.conover@gmail.com" className = "fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                        <p id="git-link">anna.grace.conover@gmail.com</p>  
+                    </div>
+                    {/* <a href="https://github.com/AnnaxGrace" target = "_blank" className = "fab fa-github icon fa-3x d-flex " rel="noopener noreferrer"></a> 
+                    <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                    <a href="mailto:anna.grace.conover@gmail.com" className = "fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                    <p>anna.grace.conover@gmail.com</p>  */}
                     <WhichNav 
                     aboutClick={props.aboutClick}
                     aboutResume={props.aboutResume}
-                    location={props.location}/>
+                    />
                     {/* <button type="button" className="btn btn-link links" id="about-text" onClick={props.aboutClick}> About Me </button>
                     <Link
                         to="/portfolio/portfolio"

@@ -1,8 +1,6 @@
 import React from "react";
-import NavTabs from "../NavTabs"
 import "./portfoliostyle.css"
 import SideNav from "../SideNav/sideNav";
-import Carousel from "../Carousel/Carousel";
 
 function Portfolio() {
   return (
@@ -22,38 +20,9 @@ function Portfolio() {
                             <div class="img-overlay">
                                 <button class = "btn btnstyle" type = "button">
                                     <h5>CookingTogether</h5>
-                                    <a href= "https://annaxgrace.github.io/MealPlanner/" target = "_blank">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href= "https://github.com/AnnaxGrace/MealPlanner" target = "_blank">GitHub Repository</a>
+                                    <a href= "https://annaxgrace.github.io/MealPlanner/" target = "_blank" rel="noopener noreferrer">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href= "https://github.com/AnnaxGrace/MealPlanner" target = "_blank" rel="noopener noreferrer">GitHub Repository</a>
                                 </button>
-
-                                {/* <div id="project-description" className="show">
-                                    This one-stop-shop meal planning website tackles the issue of the mental load in households by allowing planning by multiple chefs.
-            
-                                    <ul>
-                                        <li>
-                                            Technologies used
-                                            <ul>
-                                                <li>
-                                                Front end uses HTML, CSS, and JavaScript/jQuery
-                                                </li>
-                                                <li>
-                                                  Back end uses node.js with express, passport, passport-session, nodemailer, bycrypt, mySql, and sequelize
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            Guest Account
-                                            <ul>
-                                                <li>
-                                                    email: planner@mail.com
-                                                </li>
-                                                <li>
-                                                    password: Gue$tAcnt1
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div> */}
 
                             </div>
                         </div>

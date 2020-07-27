@@ -1,6 +1,4 @@
 import React from "react";
-import NavTabs from "../NavTabs"
-import Header from "../Header"
 import Banner from "../Banner/banner"
 import "./indexstyle.css"
 
