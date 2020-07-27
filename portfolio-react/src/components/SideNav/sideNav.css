@@ -45,8 +45,16 @@
     color: #c09793;
   }
 
-  #git-link {
+  #email-fa {
     position: relative;
     top:1%;
     left: 4%;
+    height: 4px;
+  }
+
+  .git-link {
+    color: white
+  }
+  .git-link:hover {
+    color: #c09793
   }
