@@ -4,15 +4,19 @@ import SideNav from "../SideNav/sideNav";
 
 
 function Banner () {
+
+    //define our necessary states to display the corresponding divs
     const [aboutState, setAboutState] = useState("hide")
     const [resumeState, setResumeState] = useState("hide")
 
 
+    //shows the about information
     function aboutClick () {
         setAboutState("show")
         setResumeState("hide")
     }
 
+    //shows the resume information
     function aboutResume () {
         setAboutState("hide")
         setResumeState("show")
@@ -24,21 +28,23 @@ function Banner () {
 
         <div className="row">
 
-
+            {/* passes parameters to the sideNav */}
             <div className="col-2 justify-content-center side">
                 <SideNav 
                     aboutClick={aboutClick}
                     aboutResume={aboutResume}
                 />
-
             </div>
 
+            {/* this div holds all of the image and information  */}
             <div className="col-10 p-0 mb-3">
                 <img src={require("../pages/Images/boatAnna2.png")} alt="Banner" className="banner"></img>
                 
                 <div className="hero-text">
                     Let me build your story
                 </div>
+
+                {/* This div appears when the about link is clicked */}
                 <div id = {aboutState} className="about">
                         <div className="about-p">
                             <p>
@@ -60,6 +66,7 @@ function Banner () {
                         </div>
                 </div>
 
+                {/* This div appears when the resume link is clicked */}
                 <div id = {resumeState} className="resume">
                     
                             <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="800px" height="700px" />
