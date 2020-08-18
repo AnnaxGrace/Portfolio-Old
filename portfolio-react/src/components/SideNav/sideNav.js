@@ -13,7 +13,7 @@ return (
             <p>Conover</p>
         </div>
 
-        <div className="justify-content-center">
+        <div className="justify-content-center icon-small">
             <a href="https://github.com/AnnaxGrace" target = "_blank" className = "fab fa-github icon fa-3x d-flex " rel="noopener noreferrer"></a> 
             <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
                 <div class="git-link">

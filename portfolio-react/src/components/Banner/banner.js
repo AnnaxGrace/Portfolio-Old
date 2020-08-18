@@ -29,7 +29,7 @@ function Banner () {
         <div className="row">
 
             {/* passes parameters to the sideNav */}
-            <div className="col-2 justify-content-center side">
+            <div className="col-md-2 col-sm-12 justify-content-center side">
                 <SideNav 
                     aboutClick={aboutClick}
                     aboutResume={aboutResume}
@@ -37,7 +37,7 @@ function Banner () {
             </div>
 
             {/* this div holds all of the image and information  */}
-            <div className="col-10 p-0 mb-3">
+            <div className="col-md-10 col-sm-12 p-0 mb-3">
                 <img src={require("../pages/Images/boatAnna2.png")} alt="Banner" className="banner"></img>
                 
                 <div className="hero-text">
@@ -69,7 +69,7 @@ function Banner () {
                 {/* This div appears when the resume link is clicked */}
                 <div id = {resumeState} className="resume">
                     
-                            <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="800px" height="700px" />
+                            <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="100%" height="100%" />
                         
                 </div>
 
