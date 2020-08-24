@@ -62,40 +62,5 @@ a:hover {
 
 }
 
-@media screen and (max-width: 640px) {
-    
-    .navbar-brand {
-       
-       margin-bottom: 20%;
-        
-    }
 
-    .breadcrumb {
-        background-color: navy;
-        margin-left: 10%;
-        margin-top: 20%;
-    
-    }
 
-    .navbar-toggler {
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 200px) {
-
-    .breadcrumb {
-        background-color: navy;
-        position: static;
-        margin-left: 10%;
-        margin-top: 20%;
-    
-    }
-
-    .navbar-brand {
-       
-        margin-bottom: 20%;
-         
-     }
-}

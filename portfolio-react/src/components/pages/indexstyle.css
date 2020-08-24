@@ -74,39 +74,43 @@ footer {
     background-color: navy;
     color: white;
     text-align: center;
+    width: 100%;
    
 }
 
 .copyright {
     margin-bottom: 0px; 
-    padding: 20px;
+    padding-top: 20px;
     
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
+
+    /* .links-wrapper {
+        margin-right: 10%;
+    } */
 
     .icon-small {
         position: absolute;
-        top: 3%;
+        top: 1%;
         justify-content: right;
     }
 
     #about-text {
-        position: absolute;
         top: 6%;
-        left: 130%;
+        left: 105%;
     }
 
     #resume-text {
         position: absolute;
         top: 60%;
-        left: 130%;
+        left: 105%;
     }
 
     #portfolio-text {
         position: absolute;
         top: 129%;
-        left: 137%;
+        left: 111%;
     }
 
     .hero-text {
@@ -164,13 +168,11 @@ footer {
 }
 
 
-@media screen and (min-width: 970px) {
+@media screen and (max-width: 1259px) {
 
     
 
     
-    /* .main-content {
-        margin-right: 35%;
-    } */
+
 
 }

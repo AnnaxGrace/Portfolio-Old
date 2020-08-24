@@ -6,7 +6,9 @@ import "./sideNav.css"
 function SideNav (props) {
 
 return (
-    <div>
+    <div className="side-wrapper">
+        <div className="side-wrapper">
+
         <div className="name">
             <p>Anna</p>
             <p>Grace</p>
@@ -28,6 +30,11 @@ return (
                 />
 
         </div>
+
+        </div>
+
+        
+        
            
     </div>
 )

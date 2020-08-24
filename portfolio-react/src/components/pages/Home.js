@@ -9,7 +9,7 @@ function Home() {
         
         <Banner />
 
-        <footer>
+        <footer >
             <p className="copyright">&copy; Anna Conover</p>
         </footer>
     </div>

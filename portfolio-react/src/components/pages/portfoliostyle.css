@@ -26,9 +26,9 @@
   text-align: center;
   margin-top: 100px;
   font-size: 50px;
-  /* position: absolute;
+  position: relative;
   top: 10%;
-  left: 20%; */
+  left: 1%; 
   z-index: 3;
 }
 
@@ -177,7 +177,7 @@ h2 {
   display: none;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
 
   
   .pdf{
@@ -195,4 +195,19 @@ h2 {
     padding: 10px;
   }
 
-}
+  .icon-small {
+    position: relative;
+    top: 10%;
+    left: 7%;
+  }
+
+  #about-text, #resume-text, #portfolio-text {
+    position: relative;
+  }
+
+  #about-text {
+    top: 12%;
+    left: 7%
+  } */
+
+/* } */

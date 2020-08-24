@@ -9,7 +9,7 @@ function SideLinks (props) {
 
     return(
 
-        <div>
+        <div className="links-wrapper">
             <button type="button" className="btn btn-link links" id="about-text" onClick={props.aboutClick}> About Me </button>
             <Link
             to="/Portfolio/portfolio"
