@@ -31,11 +31,11 @@ function Portfolio() {
     <div>
         <div className="row">
 
-            <div className="col-2 justify-content-center side" >
+            <div className="col-md-2 col-lg-2 col-sm-12 col-xs-12 justify-content-center side" >
                 <SideNav />
             </div>
 
-            <div className="col-10 p-0">
+            <div className="col-md-10 col-sm-12 p-0">
                     <WhichProject
                     sidekick={sidekick}
                     once={once}

@@ -11,7 +11,7 @@ return (
             <img className="img-responsive" src={require("../pages/Images/Scheduler2.png")} alt="WorkDay Scheduler Homepage"/>
             <div className="img-overlay">
                 <button className="btn btnstyle" type = "button">
-                    <p className="button-header">Work Day Scheduler</p>
+                    <p className="button-header" id="work-header">Work Day Scheduler</p>
                     <a className="web-links" href= "https://annaxgrace.github.io/WorkDayScheduler/" target = "_blank" rel="noopener noreferrer">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a className="web-links" href= "https://github.com/AnnaxGrace/WorkDayScheduler" target = "_blank" rel="noopener noreferrer">GitHub Repository</a>
                 </button>
