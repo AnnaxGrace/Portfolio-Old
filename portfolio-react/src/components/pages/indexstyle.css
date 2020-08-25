@@ -126,7 +126,7 @@ footer {
     .about{
         background-color:rgba(0,0,0,0.9);
         border-radius: 0px 0px 10px 10px;
-        height: 150%;
+        height: 165%;
         width: 100%;
         position: absolute;
         top: -135px;
@@ -146,24 +146,24 @@ footer {
         padding-top: 2px;
     }
 
-    .resume{
+    /* .resume{
         background-color:rgba(0,0,0,0.9);
         border-radius: 0px 0px 0px 0px;
         height: 150%;
         width: 100%;
         position: absolute;
-        top: -135px;
+        top: -135px; */
         /* left: 30%; */
-        padding-left: 10%;
-        z-index: 3;
+        /* padding-left: 10%;
+        z-index: 3; */
         /* opacity: 3; */
-    }
-
+    /* } */
+/* 
     .pdf {
         height: 50px !important;
         width: 50px !important;
     }
-
+ */
 
 }
 

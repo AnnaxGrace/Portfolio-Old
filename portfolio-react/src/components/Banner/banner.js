@@ -69,7 +69,7 @@ function Banner () {
                 {/* This div appears when the resume link is clicked */}
                 <div id = {resumeState} className="resume">
                     
-                            <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="100%" height="100%" />
+                            <embed class = "pdf" src={require("../pages/Images/AnnaGraceConoverResume.pdf")}  width="800px" height="700px" />
                         
                 </div>
 
