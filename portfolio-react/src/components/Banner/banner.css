@@ -36,6 +36,27 @@
     z-index: 3;
 }
 
+.btn-close, .btn-close-resume {
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border-color:  rgba(0,0,0,0);;
+    font-size: 32px;
+}
+
+.btn-close-resume {
+    position: relative;
+    top: -77%;
+    left: -11%;
+
+}
+
+.mobile-download, #mobile-download-here {
+    color: rgba(0,0,0,0);
+    z-index: -1;
+}
+
+
+
 .resume{
     background-color:rgba(0,0,0,0.6);
     border-radius: 0px 0px 0px 0px;
@@ -47,6 +68,12 @@
     padding-left: 10%;
     z-index: 3;
     /* opacity: 3; */
+}
+
+.resume-no-show {
+    position: absolute;
+    top: 2%;
+    left: 5%;
 }
 
 .about-p {

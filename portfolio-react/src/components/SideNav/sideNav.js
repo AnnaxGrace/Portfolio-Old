@@ -20,16 +20,18 @@ return (
             <a href="https://linkedin.com/in/anna-grace-conover" target = "_blank" className = "fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
                 <div class="git-link">
                     <a href="mailto:anna.grace.conover@gmail.com" className = "fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
-                    <p id="email-fa">anna.grace.conover@gmail.com</p> 
+                    {/* <p id="email-fa">anna.grace.conover@gmail.com</p>  */}
                 </div>
 
-                {/* determines which navigation links to show */}
-                <WhichNav 
+             
+
+        </div>
+
+         {/* determines which navigation links to show */}
+         <WhichNav 
                     aboutClick={props.aboutClick}
                     aboutResume={props.aboutResume}
                 />
-
-        </div>
 
         </div>
 
