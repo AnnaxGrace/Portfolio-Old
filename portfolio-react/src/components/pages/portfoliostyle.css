@@ -75,18 +75,15 @@ h2 {
    }
 
    .project-description {
-    /* margin-top: 15%; */
     position: absolute;
     background-color:rgba(0,0,0,0);
     color: rgba(0,0,0,0);
-    top: 17%;
+    top: 20%;
     left: 0%;
     height: 91%;
     width: 100%;
     padding-top: 15%;
     font-size: 25px;
-  
-    /* margin-bottom: 15px; */
   }
 
   .dropdown-style {
@@ -94,18 +91,27 @@ h2 {
     top: 2%;
     left: 1%;
   }
+
+  /* .hide-description {
+    display: none;
+  }
+
+  .project-description:hover + .hide-description {
+    display: show
+  } */
   
-   .project-description:hover {
+  .project-description:hover {
     position: absolute;
     background-color:rgba(0,0,0,0.7);
     color: white;
-    top: 17%;
+    top: 20%;
     left: 0%;
-    height: 83%;
+    height: 81%;
     width: 100%;
     padding-top: 10%;
     font-size: 25px;
-   }
+  } 
+   
   .img-responsive {
     width: 100%;
     height: 100%;
@@ -137,6 +143,18 @@ h2 {
     margin-bottom: 0px; 
     padding: 20px;
     
+}
+
+.btn-lock {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  color: white;
+  position: relative;
+  top: 1%;
+}
+
+.btn-lock:hover {
+  color:#c09793;
 }
 
 
@@ -176,38 +194,3 @@ h2 {
 .hide {
   display: none;
 }
-
-/* @media screen and (max-width: 640px) {
-
-  
-  .pdf{
-      width: 100% !important;
-      height: 95% !important;
-
-  }
-
-  .img-wrapper{
-    margin-bottom: 60px;
-
-  }
-
-  #container {
-    padding: 10px;
-  }
-
-  .icon-small {
-    position: relative;
-    top: 10%;
-    left: 7%;
-  }
-
-  #about-text, #resume-text, #portfolio-text {
-    position: relative;
-  }
-
-  #about-text {
-    top: 12%;
-    left: 7%
-  } */
-
-/* } */

@@ -16,6 +16,8 @@ function WhichProject (props) {
             once={props.once}
             cookingTogether={props.cookingTogether}
             scheduler={props.scheduler}
+            descriptionHover={props.descriptionHover}
+
         />
     }
 
@@ -25,6 +27,8 @@ function WhichProject (props) {
                 once={props.once}
                 cookingTogether={props.cookingTogether}
                 scheduler={props.scheduler}
+                descriptionHover={props.descriptionHover}
+
         />
     }
 
@@ -34,6 +38,8 @@ function WhichProject (props) {
             once={props.once}
             cookingTogether={props.cookingTogether}
             scheduler={props.scheduler}
+            descriptionHover={props.descriptionHover}
+
         />
     }
 
@@ -43,6 +49,8 @@ function WhichProject (props) {
             once={props.once}
             cookingTogether={props.cookingTogether}
             scheduler={props.scheduler}
+            descriptionHover={props.descriptionHover}
+
         />
     }
 
@@ -52,6 +60,8 @@ function WhichProject (props) {
         once={props.once}
         cooking={props.cookingTogether}
         scheduler={props.scheduler}
+        descriptionHover={props.descriptionHover}
+
     />
     
 }

@@ -12,12 +12,16 @@ return (
         <div className="img-wrapper description">
             <img className="img-responsive" src={require("../pages/Images/MealPlanner.png")} alt="MealPlanner"/>
             <div className="img-overlay">
+
                 <button className="btn btnstyle" type = "button">
                 
                     <p className="button-header">CookingTogether</p>
                     <a className="web-links" href= "https://cooking-together.herokuapp.com/" target = "_blank" rel="noopener noreferrer">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a className="web-links" href= "https://github.com/AnnaxGrace/MealPlanner" target = "_blank" rel="noopener noreferrer">GitHub Repository</a>
+                    <button type="button" className = "fa fa-lock d-flex btn-lock" onClick={props.descriptionHover} rel="noopener noreferrer">&nbsp; Lock Description</button> 
+
                 </button>
+
                 <div className="dropdown dropdown-style">
 
                     {/* links to our other projects */}
@@ -36,7 +40,8 @@ return (
     </div>
 
     {/* This div shows up when you hover over the picture */}
-    <div className="project-description">
+    <div className="project-description hide-description" id="project-description-id">
+       
         <ul>
             <li>
                 This one-stop-shop meal planning website tackles the issue of the mental load in households by allowing planning by multiple chefs.
