@@ -27,9 +27,9 @@ function Portfolio() {
     window.location.reload();
   }
 
-  function descriptionHover () {
-    console.log("this is working")
-  }
+  // function descriptionHover () {
+  //   console.log("this is working")
+  // }
 
   return (
     <div>
@@ -45,7 +45,7 @@ function Portfolio() {
                     once={once}
                     cookingTogether={cookingTogether}
                     scheduler={scheduler}
-                    descriptionHover={descriptionHover}
+                    // descriptionHover={descriptionHover}
                     />
                     
             </div>

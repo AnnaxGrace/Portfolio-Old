@@ -18,7 +18,7 @@ return (
                     <p className="button-header">CookingTogether</p>
                     <a className="web-links" href= "https://cooking-together.herokuapp.com/" target = "_blank" rel="noopener noreferrer">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a className="web-links" href= "https://github.com/AnnaxGrace/MealPlanner" target = "_blank" rel="noopener noreferrer">GitHub Repository</a>
-                    <button type="button" className = "fa fa-lock d-flex btn-lock" onClick={props.descriptionHover} rel="noopener noreferrer">&nbsp; Lock Description</button> 
+                    {/* <button type="button" className = "fa fa-lock d-flex btn-lock" onClick={props.descriptionHover} rel="noopener noreferrer">&nbsp; Lock Description</button>  */}
 
                 </button>
 
@@ -40,7 +40,7 @@ return (
     </div>
 
     {/* This div shows up when you hover over the picture */}
-    <div className="project-description hide-description" id="project-description-id">
+    <div className="project-description">
        
         <ul>
             <li>

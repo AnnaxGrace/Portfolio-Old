@@ -78,7 +78,7 @@ h2 {
     position: absolute;
     background-color:rgba(0,0,0,0);
     color: rgba(0,0,0,0);
-    top: 20%;
+    top: 18%;
     left: 0%;
     height: 91%;
     width: 100%;
@@ -104,9 +104,9 @@ h2 {
     position: absolute;
     background-color:rgba(0,0,0,0.7);
     color: white;
-    top: 20%;
+    top: 18%;
     left: 0%;
-    height: 81%;
+    height: 83%;
     width: 100%;
     padding-top: 10%;
     font-size: 25px;

@@ -11,8 +11,8 @@ return (
             <div className="img-overlay">
                 <button className="btn btnstyle" type = "button">
                     <p className="button-header">Self-Care Sidekick</p>
-                    <a className="web-links" href= "https://personal-pet.herokuapp.com/" target = "_blank" rel="noopener noreferrer">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a className="web-links" href= "https://github.com/sharlenemay/personal_pet"  target = "_blank" rel="noopener noreferrer">GitHub Repository</a>
+                    <a className="web-links" href= "https://selfcare-sidekick.herokuapp.com/" target = "_blank" rel="noopener noreferrer">Live Website</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a className="web-links" href= "https://github.com/AnnaxGrace/selfcare-sidekick"  target = "_blank" rel="noopener noreferrer">GitHub Repository</a>
                 </button>
                 <div className="dropdown dropdown-style">
                     

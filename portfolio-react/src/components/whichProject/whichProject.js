@@ -16,7 +16,7 @@ function WhichProject (props) {
             once={props.once}
             cookingTogether={props.cookingTogether}
             scheduler={props.scheduler}
-            descriptionHover={props.descriptionHover}
+            // descriptionHover={props.descriptionHover}
 
         />
     }
