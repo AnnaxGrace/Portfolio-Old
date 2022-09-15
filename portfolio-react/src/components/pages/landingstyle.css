@@ -1,0 +1,39 @@
+#cloudDrawn {
+    /* stroke-dasharray: 5127; */
+    stroke-dasharray: 5;
+
+    /* stroke-dashoffset: 5127; */
+    /* animation: sign 4s ease;
+    animation-fill-mode: forwards; */
+}
+
+path.cloudDrawn {
+    fill: none;
+    stroke: navy;
+    stroke-width: 7;
+    stroke-dasharray: 5127;
+    stroke-dashoffset: 5127;
+    /* animation: cloud 5s linear alternate; */
+    /* animation-fill-mode: forwards; */
+    animation: cloud 7s linear forwards;
+    /* animation-iteration-count: 1; */
+
+  }
+  @keyframes cloud {
+    /* from {
+      stroke-dashoffset: 5127;
+    } */
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+.test {
+    color: blue;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
