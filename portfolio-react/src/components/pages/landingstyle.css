@@ -1,39 +1,159 @@
-#cloudDrawn {
-    /* stroke-dasharray: 5127; */
-    stroke-dasharray: 5;
+.cloud {
+  position: absolute;
+  top: -90px;
+  right: 60px;
+  height: 300px;
+  width: 600px;
+}
 
-    /* stroke-dashoffset: 5127; */
-    /* animation: sign 4s ease;
+#cloudDrawn {
+  /* stroke-dasharray: 5127; */
+  stroke-dasharray: 5;
+
+  /* stroke-dashoffset: 5127; */
+  /* animation: sign 4s ease;
     animation-fill-mode: forwards; */
 }
 
 path.cloudDrawn {
-    fill: none;
-    stroke: navy;
-    stroke-width: 7;
-    stroke-dasharray: 5127;
-    stroke-dashoffset: 5127;
-    /* animation: cloud 5s linear alternate; */
-    /* animation-fill-mode: forwards; */
-    animation: cloud 7s linear forwards;
-    /* animation-iteration-count: 1; */
-
-  }
-  @keyframes cloud {
-    /* from {
-      stroke-dashoffset: 5127;
-    } */
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
-
-.test {
-    color: blue;
+  fill: none;
+  stroke: #2878eb;
+  stroke-width: 7;
+  stroke-dasharray: 5127;
+  stroke-dashoffset: -5127;
+  animation: cloud 4s linear forwards;
 }
 
-@keyframes sign {
-    to {
-        stroke-dashoffset: 0;
-    }
+@keyframes cloud {
+
+  /* from {
+      stroke-dashoffset: 5127;
+    } */
+  to {
+    stroke-dashoffset: -600;
+  }
+}
+
+.bouncing-text {
+  position: absolute;
+  top: 410px;
+  display: flex;
+  margin-left: 125px;
+  font-size: 40px;
+  font-family: 'Pacifico';
+}
+
+.h,
+.e,
+.a,
+.d,
+.i,
+.n,
+.t,
+.hh2,
+.e2,
+.c,
+.l,
+.o,
+.u,
+.d2,
+.s {
+  color: #2878eb;
+  /* text-shadow: 0 3px #264263, 0 5px #264263, 0 7px #264263; */
+}
+
+.i,
+.t,
+.c {
+  margin-left: 15px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  10% {
+    transform: scale(1.1, .9) translateY(0);
+  }
+
+  30% {
+    transform: scale(.9, 1.1) translateY(-55px);
+  }
+
+  50% {
+    transform: scale(1.05, .95) translateY(0);
+  }
+
+  58% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+
+  65% {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+.h {
+  animation: bounce 1s ease forwards .3s;
+}
+
+.e {
+  animation: bounce 1s ease forwards .4s;
+}
+
+.a {
+  animation: bounce 1s ease forwards .5s;
+}
+
+.d {
+  animation: bounce 1s ease forwards .6s;
+}
+
+.i {
+  animation: bounce 1s ease forwards .7s;
+}
+
+.n {
+  animation: bounce 1s ease forwards .8s;
+}
+
+.t {
+  animation: bounce 1s ease forwards .9s;
+}
+
+.hh2 {
+  animation: bounce 1s ease forwards 1s;
+}
+
+.e2 {
+  animation: bounce 1s ease forwards 1.1s;
+}
+
+.c {
+  animation: bounce 1s ease forwards 1.2s;
+}
+
+.l {
+  animation: bounce 1s ease forwards 1.3s;
+}
+
+.o {
+  animation: bounce 1s ease forwards 1.4s;
+}
+
+.u {
+  animation: bounce 1s ease forwards 1.5s;
+}
+
+.d2 {
+  animation: bounce 1s ease forwards 1.6s;
+}
+
+.s {
+  animation: bounce 1s ease forwards 1.7s;
 }
