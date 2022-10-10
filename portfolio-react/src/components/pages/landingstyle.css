@@ -157,3 +157,9 @@ path.cloudDrawn {
 .s {
   animation: bounce 1s ease forwards 1.7s;
 }
+
+.bottom-nav {
+  background-color: #C97B84;
+  border-radius: 6px;
+  color: white;
+}

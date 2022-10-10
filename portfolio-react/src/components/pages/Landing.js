@@ -68,7 +68,7 @@ function Landing() {
                             <div class="u">u</div>
                             <div class="d2">d</div>
                             <div class="s">s</div>
-                            
+
                         </div>
 
 
@@ -106,7 +106,14 @@ function Landing() {
                     </div>
                 </div>
 
-                <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
+            </div>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bottom-nav">
+                    <a class="navbar-brand bottom-nav" href="#">Navbar</a>
+                    <a>Credits             <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
+                    </a>
+                </nav>
             </div>
         </div>
     )
