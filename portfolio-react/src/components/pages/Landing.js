@@ -34,12 +34,35 @@ function Landing() {
     return (
 
         <div class="container-fluid">
+
+            <p class="pt-5 top-name">ANNA GRACE PENNINGTON</p>
+
             <div class="row">
                 <div className="col-md-4 col-sm-12 justify-content-center side">
-                    <SideNav
+
+                    <div class="mt-5">
+                        <p>
+                            Hello! My name is Anna Conover and I am a full-stack developer.
+                        </p>
+                        <p>
+                            I am originally from Houston, Texas. I went to the University of Oklahoma, where I received a Bachelor's degree in Drama: Acting Emphasis. I am a person that likes learning new things and being challenged. I learn quickly, and work hard.
+                        </p>
+                        <p>
+                            As an actor, I bring a unique understanding of collaboration, creativity, and storytelling into the developer world. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character- and I use the same skills to write code that is clean, mobile-first, and efficient to build your story.
+                        </p>
+                        <p>
+                            In July of 2020, I received a certification from the UCLA coding Bootcamp program, where I learned multiple technical skills (including Javascript, CSS, HTML, mySql, Node, and React) while gaining experience in building projects with teams.
+                        </p>
+
+                        <p>
+                            You can view my work through the "Portfolio" link. Please do not hesitate to reach out to me through email!
+                        </p>
+                    </div>
+                    {/* <SideNav
                         aboutClick={aboutClick}
                         aboutResume={aboutResume}
-                    />
+                    /> */}
+
                 </div>
 
                 <div className="col-md-8 col-sm-12 p-0 mb-3">
@@ -108,12 +131,26 @@ function Landing() {
 
             </div>
 
+            <p>ANNA GRACE PENNINGTON</p>
             <div class="container">
-                <nav class="navbar navbar-expand-lg bottom-nav">
-                    <a class="navbar-brand bottom-nav" href="#">Navbar</a>
-                    <a>Credits             <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
-                    </a>
+                <nav class="navbar navbar-expand-lg fixed-bottom bottom-nav placement">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a class="navbar-brand bottom-nav" href="#">Navbar</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a>Credits             
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="navbar-brand bottom-nav" href="#">Navbar</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="navbar-brand bottom-nav" href="#">Navbar</a>
+                        </div>
+                    </div>
                 </nav>
+                {/* <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div> */}
             </div>
         </div>
     )

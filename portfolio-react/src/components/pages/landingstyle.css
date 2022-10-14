@@ -1,6 +1,11 @@
+.top-name{
+  font-size: 50px;
+  margin-left: 3rem;
+}
+
 .cloud {
   position: absolute;
-  top: -90px;
+  top: -210px;
   right: 60px;
   height: 300px;
   width: 600px;
@@ -162,4 +167,9 @@ path.cloudDrawn {
   background-color: #C97B84;
   border-radius: 6px;
   color: white;
+
+}
+
+.placement {
+  margin: 0px 20% 60px 20%;
 }
