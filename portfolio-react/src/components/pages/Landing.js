@@ -42,7 +42,7 @@ function Landing() {
 
                     <div class="mt-5">
                         <p>
-                            Hello! My name is Anna Conover and I am a full-stack developer.
+                            Hello! My name is Anna Conover and I am a DevOps Engineer/Cloud Architect.
                         </p>
                         <p>
                             I am originally from Houston, Texas. I went to the University of Oklahoma, where I received a Bachelor's degree in Drama: Acting Emphasis. I am a person that likes learning new things and being challenged. I learn quickly, and work hard.
@@ -102,7 +102,7 @@ function Landing() {
                         <button type="button" class="btn btn-light btn-close" onClick={closeButton}>x</button>
                         <div className="about-p">
                             <p>
-                                Hello! My name is Anna Conover and I am a full-stack developer.
+                                Hello! My name is Anna Conover and I am a DevOps Engineer/Cloud Architect.
                             </p>
                             <p>
                                 I am originally from Houston, Texas. I went to the University of Oklahoma, where I received a Bachelor's degree in Drama: Acting Emphasis. I am a person that likes learning new things and being challenged. I learn quickly, and work hard.
