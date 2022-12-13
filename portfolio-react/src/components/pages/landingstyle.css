@@ -1,6 +1,15 @@
 .top-name{
   font-size: 50px;
   margin-left: 3rem;
+  /* margin-top:  */
+}
+
+.brand-statement{
+  margin-left: 100px;
+  margin-top: 180px;
+  line-height: 300%;
+  color: black;
+  font-size: 18px;
 }
 
 .cloud {

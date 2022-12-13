@@ -38,25 +38,24 @@ function Landing() {
             <p class="pt-5 top-name">ANNA GRACE PENNINGTON</p>
 
             <div class="row">
-                <div className="col-md-4 col-sm-12 justify-content-center side">
-
+                <div className="col-md-6 col-sm-12 justify-content-center side">
                     <div class="mt-5">
-                        <p>
+                        {/* <p>
                             Hello! My name is Anna Conover and I am a DevOps Engineer/Cloud Architect.
-                        </p>
-                        <p>
+                        </p> */}
+                        {/* <p>
                             I am originally from Houston, Texas. I went to the University of Oklahoma, where I received a Bachelor's degree in Drama: Acting Emphasis. I am a person that likes learning new things and being challenged. I learn quickly, and work hard.
+                        </p> */}
+                        <p class="brand-statement">
+                            DevOps Engineer with a drive for creating code and processes that make the world a better place – focusing on modern and transformative work that consistently enriches the workplace and the community. I have a Bachelor’s Degree in Fine Arts, and as an actor I bring a unique understanding of collaboration, creativity, and storytelling into the industry. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character for a play - and I use the same skills to write code and create infrastructure that is clean and efficient to build your story
                         </p>
-                        <p>
-                            As an actor, I bring a unique understanding of collaboration, creativity, and storytelling into the developer world. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character- and I use the same skills to write code that is clean, mobile-first, and efficient to build your story.
-                        </p>
-                        <p>
+                        {/* <p>
                             In July of 2020, I received a certification from the UCLA coding Bootcamp program, where I learned multiple technical skills (including Javascript, CSS, HTML, mySql, Node, and React) while gaining experience in building projects with teams.
-                        </p>
+                        </p> */}
 
-                        <p>
+                        {/* <p>
                             You can view my work through the "Portfolio" link. Please do not hesitate to reach out to me through email!
-                        </p>
+                        </p> */}
                     </div>
                     {/* <SideNav
                         aboutClick={aboutClick}
@@ -65,7 +64,7 @@ function Landing() {
 
                 </div>
 
-                <div className="col-md-8 col-sm-12 p-0 mb-3">
+                <div className="col-md-6 col-sm-12 p-0 mb-3">
                     <div class='cloud'>
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xmlSpace="preserve">
                             <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
@@ -131,7 +130,7 @@ function Landing() {
 
             </div>
 
-            <p>ANNA GRACE PENNINGTON</p>
+            {/* <p>ANNA GRACE PENNINGTON</p> */}
             <div class="container">
                 <nav class="navbar navbar-expand-lg fixed-bottom bottom-nav placement">
                     <div class="row">
@@ -139,7 +138,7 @@ function Landing() {
                             <a class="navbar-brand bottom-nav" href="#">Navbar</a>
                         </div>
                         <div class="col-md-3">
-                            <a>Credits             
+                            <a>Credits
                             </a>
                         </div>
                         <div class="col-md-3">
