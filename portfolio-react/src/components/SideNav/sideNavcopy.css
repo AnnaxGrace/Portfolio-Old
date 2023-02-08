@@ -1,0 +1,117 @@
+.side-wrapper{
+  /* margin-top: 350px;
+  margin-left: 30px; */
+  position: absolute;
+  top: 350px;
+  left: 80px;
+  /* width: 50%; */
+}
+
+.raindrops {
+  /* width:80%; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-row, #mid-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sub-text {
+  color: #EB6F80;
+}
+
+.raindrop {
+  width: 70px;
+  height: 70px;
+  border-radius: 0 50% 50% 50%;
+  border: 3px solid black;
+  transform: rotate(45deg);
+  margin: 10px;
+  margin-left: 30px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  /* margin-left: 100px; */
+}
+
+.second-row {
+  margin-left: 35px;
+}
+
+.raintext {
+  margin-left: 5px;
+} 
+
+.links {
+  /* position: absolute; */
+  /* top: 60%; */
+  left: 15%;
+  font-size: 20px;
+  color: #c09793;
+}
+
+.icon-small {
+  margin-bottom: 40px;
+}
+
+.links:hover {
+  color: #2a458e !important;
+
+}
+
+#about-text {
+  top: 60%;
+}
+
+#portfolio-text {
+  top: 66%;
+  margin: 0px;
+  padding: 0px;
+  left: 20%;
+}
+
+#portfolio-text:hover {
+  color: #2a458e !important;
+}
+
+#resume-text {
+  top: 70%;
+}
+
+
+.side {
+  background-color: #c7cdd3;
+  background-color: white;
+}
+
+.icon-content {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1px;
+}
+
+.div-links:hover {
+  color: #c09793;
+}
+
+#email-fa {
+  position: relative;
+  top: 1%;
+  left: 4%;
+  height: 4px;
+}
+
+.git-link {
+  color: white
+}
+
+.git-link:hover {
+  color: #c09793
+}
+
+img {
+  height: 100px;
+}
