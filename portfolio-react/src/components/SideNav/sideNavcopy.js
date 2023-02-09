@@ -8,40 +8,26 @@ function SideNav(props) {
     return (
         <div className="side-wrapper">
             <div className="raindrops">
-            <div id="top-row">
-                {/* <div className="col"> */}
-                    <div class="raindrop">
+                <div id="top-row">
+                    <a class="raindrop">
                         <p class="raintext">about me</p>
-                    {/* </div> */}
-                </div>
-                {/* <div className="col"> */}
-                    <div class="raindrop">
+                    </a>
+                    <a class="raindrop">
                         <p class="raintext">certs</p>
-                    {/* </div> */}
-                </div>
-                {/* <div className="col"> */}
-                    <div class="raindrop">
-                        <p class="raintext">certs</p>
-                    </div>
+                    </a>
+                    <a class="raindrop">
+                        <p class="raintext">resume</p>
+                    </a>
                 </div>
             </div>
-            <div id="mid-row">
-                {/* <div className="col"> */}
-                    <div class="raindrop">
-                        <p class="raintext">about me</p>
-                    {/* </div> */}
-                </div>
-                {/* <div className="col"> */}
-                    <div class="raindrop">
-                        <p class="raintext">certs</p>
-                    {/* </div> */}
-                </div>
-                {/* <div className="col">
-                    <div class="raindrop">
-                        <p class="raintext">certs</p>
-                    </div>
-                </div> */}
-            </div>
+            {/* <div id="mid-row">
+                <a class="raindrop">
+                    <p class="raintext">contact</p>
+                </a>
+                <a class="raindrop">
+                    <p class="raintext">certs</p>
+                </a>
+            </div> */}
 
 
             {/* <div className=" row justify-content-center icon-small">

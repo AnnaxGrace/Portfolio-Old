@@ -106,32 +106,13 @@ function Landing() {
 
                     </div>
                 </div>
-                <div className="col-lg-7 col-md-12 col-sm-12 justify-content-center side">
+                {/* <div className="col-lg-7 col-md-12 col-sm-12 justify-content-center side">
                     <div class="mt-5">
-                        {/* <p>
-                            Hello! My name is Anna Conover and I am a DevOps Engineer/Cloud Architect.
-                        </p> */}
-                        {/* <p>
-                            I am originally from Houston, Texas. I went to the University of Oklahoma, where I received a Bachelor's degree in Drama: Acting Emphasis. I am a person that likes learning new things and being challenged. I learn quickly, and work hard.
-                        </p> */}
                         <p class="pt-5 top-name">ANNA GRACE PENNINGTON</p>
                         <p class="brand-statement">
                             I'm a DevOps Engineer with a drive for creating code and processes that make the world a better place – focusing on modern and transformative work that consistently enriches the workplace and the community. I have a Bachelor’s Degree in Fine Arts, and as an actor I bring a unique understanding of collaboration, creativity, and storytelling into the industry. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character for a play - and I use the same skills to write code and create infrastructure that is clean and efficient to build your story
                         </p>
-                        {/* <p>
-                            In July of 2020, I received a certification from the UCLA coding Bootcamp program, where I learned multiple technical skills (including Javascript, CSS, HTML, mySql, Node, and React) while gaining experience in building projects with teams.
-                        </p> */}
-
-                        {/* <p>
-                            You can view my work through the "Portfolio" link. Please do not hesitate to reach out to me through email!
-                        </p> */}
-                    </div>
-                    {/* <SideNav
-                        aboutClick={aboutClick}
-                        aboutResume={aboutResume}
-                    /> */}
-
-                </div>
+                </div> */}
 
                 {/* <div className="col-md-6 col-sm-12 p-0 mb-3">
                     <div class='cloud'>

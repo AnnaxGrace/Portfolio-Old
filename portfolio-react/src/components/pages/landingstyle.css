@@ -1,12 +1,13 @@
 .top-name{
   font-size: 50px;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   /* margin-top: 180px; */
   /* margin-top:  */
 }
 
 .brand-statement{
-  margin-left: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
   /* margin-top: 180px; */
   line-height: 300%;
   color: black;
@@ -40,10 +41,6 @@ path.cloudDrawn {
 }
 
 @keyframes cloud {
-
-  /* from {
-      stroke-dashoffset: 5127;
-    } */
   to {
     stroke-dashoffset: -600;
   }
