@@ -1,4 +1,4 @@
-.side-wrapper{
+.side-wrapper {
   /* margin-top: 350px;
   margin-left: 30px; */
   position: absolute;
@@ -14,7 +14,8 @@
   flex-direction: column;
 }
 
-#top-row, #mid-row {
+#top-row,
+#mid-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -52,19 +53,37 @@
 }
 
 @keyframes pop-in-top {
-  from { margin-top: -40px; }
-  to { margin-top: 0px; }
+  from {
+    margin-top: -40px;
+  }
+
+  to {
+    margin-top: 0px;
+  }
 }
 
 @keyframes show-top {
-  0% { opacity: 0;}
-  90% { opacity: 0;}
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes pop-in-mid {
-  from { margin-top: -40px; }
-  to { margin-top: 0px; }
+  from {
+    margin-top: -40px;
+  }
+
+  to {
+    margin-top: 0px;
+  }
 }
 
 .second-row {
@@ -75,14 +94,14 @@
   margin-left: 1px;
   font-size: 20px;
   font-weight: 700;
-} 
+}
 
 .icon-small {
   margin-bottom: 40px;
 }
 
 .links:hover {
-  color: #2a458e !important;
+  color: #FF007F !important;
 
 }
 
@@ -105,7 +124,6 @@
   top: 70%;
 }
 
-
 .side {
   background-color: #c7cdd3;
   background-color: white;
@@ -115,8 +133,6 @@
   color: rgba(0, 0, 0, 0.6);
   font-size: 1px;
 }
-
-
 
 #email-fa {
   position: relative;

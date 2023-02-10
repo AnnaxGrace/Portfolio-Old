@@ -36,9 +36,9 @@ function SideNav(props) {
                 <div class="git-link">
                     <a href="mailto:annaxgrace2022@gmail.com" className="fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
                 </div>
-            </div>
+            </div> */}
 
-            <div class="row justify-content-center mb-5">
+            {/* <div class="row justify-content-center mb-5">
                 <img src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
                 <img src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
                 <img src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>

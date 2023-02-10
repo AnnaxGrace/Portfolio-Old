@@ -43,12 +43,17 @@ h2 {
 }
 
 .icon {
-    color: #2a458e;
-    padding-top: 5px;
-    padding-right: 15px;
+    color: #2878eb;
+    padding-right: 25px;
+    padding-left: 25px;
     float: right;
 }
 
+
+.icon:hover {
+    color: #FF007F;
+    text-decoration: none;
+}
 
 
 /* a:hover {
@@ -72,12 +77,29 @@ h2 {
 }
 
 footer {
-    background-color: navy;
-    color: white;
+    /* background-color: navy; */
+    /* color: white; */
     text-align: center;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-   
+    animation: show-top 5s forwards 0s;      
+    /* height: 2.5rem;   */
 }
+
+@keyframes show-top {
+    0% {
+      opacity: 0;
+    }
+  
+    90% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
 
 .copyright {
     margin-bottom: 0px; 
