@@ -76,7 +76,7 @@ function Landing() {
                     />
 
                     {/* This div appears when the about link is clicked */}
-                    <div id={aboutState} className="about">
+                    {/* <div id={aboutState} className="about">
                         <button type="button" class="btn btn-light btn-close" onClick={closeButton}>x</button>
                         <div className="about-p">
                             <p>
@@ -96,7 +96,7 @@ function Landing() {
                                 You can view my work through the "Portfolio" link. Please do not hesitate to reach out to me through email!
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* This div appears when the resume link is clicked */}
                     <div id={resumeState} className="resume">
@@ -106,47 +106,19 @@ function Landing() {
 
                     </div>
                 </div>
-                <div className="col-lg-7 col-md-12 col-sm-12 justify-content-center side">
-                    {/* <div class="mt-5">
+
+                <div id={aboutState} className="mt-5 col-lg-7 col-md-12 col-sm-12 justify-content-center">
+                    <button type="button" class="btn mt-4 close-btn" onClick={closeButton}>x</button>
+
+                    <div class="mt-4">
                         <p class="brand-statement">
                             I'm a DevOps Engineer with a drive for creating code and processes that make the world a better place – focusing on modern and transformative work that consistently enriches the workplace and the community. I have a Bachelor’s Degree in Fine Arts, and as an actor I bring a unique understanding of collaboration, creativity, and storytelling into the industry. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character for a play - and I use the same skills to write code and create infrastructure that is clean and efficient to build your story
                         </p>
-                    </div> */}
-
-                    {/* <div className="col-md-6 col-sm-12 p-0 mb-3">
-                    <div class='cloud'>
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xmlSpace="preserve">
-                            <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-                            <g><g><path
-                                class="cloudDrawn"
-                                d="M808.5,772.2h-617c-79.9,0-145.2-65.3-145.2-145.2c0-69,47.2-127,112.5-141.6c-3.6-14.5-3.6-25.4-3.6-39.9c0-119.8,98-217.8,217.8-217.8c94.4,0,174.2,61.7,206.9,145.2c29-21.8,65.3-36.3,101.6-36.3c87.1,0,156.1,65.3,163.3,148.8C906.5,500,953.7,558.1,953.7,627C953.7,706.9,888.4,772.2,808.5,772.2z" />
-                            </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></g>
-                        </svg>
-
-                        <div class="bouncing-text">
-                            <div class="h">H</div>
-                            <div class="e">e</div>
-                            <div class="a">a</div>
-                            <div class="d">d</div>
-                            <div class="i">I</div>
-                            <div class="n">n</div>
-                            <div class="t">T</div>
-                            <div class="hh2">h</div>
-                            <div class="e2">e</div>
-                            <div class="c">C</div>
-                            <div class="l">l</div>
-                            <div class="o">o</div>
-                            <div class="u">u</div>
-                            <div class="d2">d</div>
-                            <div class="s">s</div>
-
-                        </div>
-
-
                     </div>
 
+
                     {/* This div appears when the about link is clicked */}
-                    <div id={aboutState} className="about">
+                    {/* <div id={aboutState} className="about">
                         <button type="button" class="btn btn-light btn-close" onClick={closeButton}>x</button>
                         <div className="about-p">
                             <p>
@@ -166,7 +138,7 @@ function Landing() {
                                 You can view my work through the "Portfolio" link. Please do not hesitate to reach out to me through email!
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* This div appears when the resume link is clicked */}
                     <div id={resumeState} className="resume">
@@ -180,43 +152,23 @@ function Landing() {
             </div>
 
             <footer className="row justify-content-center icon-small">
-                <div className= "col">
-                <div className="row justify-content-center">
-                <p class="top-name justify-content-center">ANNA GRACE PENNINGTON</p>
-                </div>
-                <div className="row justify-content-center">
-                    <a href="https://github.com/AnnaxGrace" target="_blank" className="fab fa-github icon fa-3x d-flex " rel="noopener noreferrer"></a>
-                    <a href="https://linkedin.com/in/anna-grace-conover" target="_blank" className="fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
-                    <div class="git-link">
-                        <a href="mailto:annaxgrace2022@gmail.com" className="fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                <div className="col">
+                    <div className="row justify-content-center">
+                        <p class="top-name justify-content-center">ANNA GRACE PENNINGTON</p>
                     </div>
-                </div>
-                <div className="row justify-content-center">
-                    test
-                </div>
+                    <div className="row justify-content-center">
+                        <a href="https://github.com/AnnaxGrace" target="_blank" className="fab fa-github icon fa-3x d-flex " rel="noopener noreferrer"></a>
+                        <a href="https://linkedin.com/in/anna-grace-conover" target="_blank" className="fab fa-linkedin icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                        <div class="git-link">
+                            <a href="mailto:annaxgrace2022@gmail.com" className="fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"></a>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center">
+                        test
+                    </div>
                 </div>
             </footer>
 
-            {/* <p>ANNA GRACE PENNINGTON</p> */}
-            {/* <div class="container">
-                <nav class="navbar navbar-expand-lg fixed-bottom bottom-nav placement">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a class="navbar-brand bottom-nav" href="#">Navbar</a>
-                        </div>
-                        <div class="col-md-3">
-                            <a>Credits
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a class="navbar-brand bottom-nav" href="#">Navbar</a>
-                        </div>
-                        <div class="col-md-3">
-                            <a class="navbar-brand bottom-nav" href="#">Navbar</a>
-                        </div>
-                    </div>
-                </nav>
-            </div> */}
             {/* <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div> */}
 
         </div>

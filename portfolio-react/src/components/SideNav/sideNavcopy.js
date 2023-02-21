@@ -9,7 +9,7 @@ function SideNav(props) {
         <div className="side-wrapper">
             <div className="raindrops">
                 <div id="top-row">
-                    <a class="raindrop">
+                    <a class="raindrop" onClick={props.aboutClick}>
                         <p class="raintext">about me</p>
                     </a>
                     <a class="raindrop">
