@@ -15,7 +15,7 @@ function SideNav(props) {
                     <a class="raindrop">
                         <p class="raintext">certs</p>
                     </a>
-                    <a class="raindrop">
+                    <a class="raindrop" data-toggle="modal" data-target="#resumeModal">
                         <p class="raintext">resume</p>
                     </a>
                 </div>
