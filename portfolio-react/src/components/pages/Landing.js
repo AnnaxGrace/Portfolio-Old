@@ -9,24 +9,34 @@ function Landing() {
     //define our necessary states to display the corresponding divs
     const [aboutState, setAboutState] = useState("hide")
     const [resumeState, setResumeState] = useState("hide")
+    const [skillsState, setSkillsState] = useState("hide")
 
 
     //shows the about information
     function aboutClick() {
         setAboutState("show")
         setResumeState("hide")
+        setSkillsState("hide")
     }
 
     //shows the resume information
     function aboutResume() {
         setAboutState("hide")
         setResumeState("show")
+        setSkillsState("hide")
+    }
+
+    function skillsClick() {
+        setAboutState("hide")
+        setResumeState("hide")
+        setSkillsState("show")
     }
 
     //hides the about and resume information
     function closeButton() {
         setAboutState("hide")
         setResumeState("hide")
+        setSkillsState("hide")
     }
 
 
@@ -73,38 +83,8 @@ function Landing() {
                     <SideNav
                         aboutClick={aboutClick}
                         aboutResume={aboutResume}
+                        skillsClick={skillsClick}
                     />
-
-                    {/* This div appears when the about link is clicked */}
-                    {/* <div id={aboutState} className="about">
-                        <button type="button" class="btn btn-light btn-close" onClick={closeButton}>x</button>
-                        <div className="about-p">
-                            <p>
-                                Hello! My name is Anna Conover and I am a DevOps Engineer/Cloud Architect.
-                            </p>
-                            <p>
-                                I am originally from Houston, Texas. I went to the University of Oklahoma, where I received a Bachelor's degree in Drama: Acting Emphasis. I am a person that likes learning new things and being challenged. I learn quickly, and work hard.
-                            </p>
-                            <p>
-                                As an actor, I bring a unique understanding of collaboration, creativity, and storytelling into the developer world. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character- and I use the same skills to write code that is clean, mobile-first, and efficient to build your story.
-                            </p>
-                            <p>
-                                In July of 2020, I received a certification from the UCLA coding Bootcamp program, where I learned multiple technical skills (including Javascript, CSS, HTML, mySql, Node, and React) while gaining experience in building projects with teams.
-                            </p>
-
-                            <p>
-                                You can view my work through the "Portfolio" link. Please do not hesitate to reach out to me through email!
-                            </p>
-                        </div>
-                    </div> */}
-
-                    {/* This div appears when the resume link is clicked */}
-                    {/* <div id={resumeState} className="resume">
-                        <button type="button" class="btn btn-light btn-close-resume" onClick={closeButton}>x</button>
-                        <p class="mobile-download">Hey! Looks like you're looking at this screen on mobile. Download the PDF <a id="mobile-download-here" target="_blank" href="https://drive.google.com/file/d/1OGL_IKpI9Lo0efmMWescbduoHlTOfIGt/view?usp=sharing">here</a>, or check out this page in a desktop!</p>
-                        <embed class="pdf resume-no-show" src={require("../pages/Images//Anna Grace Conover Portfolio Resume.pdf")} width="800px" height="700px" />
-
-                    </div> */}
                 </div>
 
                 <div id={aboutState} className="mt-5 col-lg-7 col-md-12 col-sm-12 justify-content-center">
@@ -115,6 +95,26 @@ function Landing() {
                             I'm a DevOps Engineer with a drive for creating code and processes that make the world a better place – focusing on modern and transformative work that consistently enriches the workplace and the community. I have a Bachelor’s Degree in Fine Arts, and as an actor I bring a unique understanding of collaboration, creativity, and storytelling into the industry. My ability and interest in challenges and puzzle-solving always lends itself to my building of a character for a play - and I use the same skills to write code and create infrastructure that is clean and efficient to build your story
                         </p>
                     </div>
+                </div>
+
+                {/* skills div */}
+                <div div id={skillsState} className="mt-5 col-lg-7 col-md-12 col-sm-12 justify-content-center">
+                <button type="button" class="btn skills-close-btn" onClick={closeButton}>x</button>
+                    <div class="row mb-3 skills-list">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+                    <div class="row justify-content-center mb-5">
+                        <img src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
+                        <img src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
+                        <img src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                    </div>
+
                 </div>
 
                 <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

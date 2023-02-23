@@ -12,8 +12,8 @@ function SideNav(props) {
                     <a class="raindrop" onClick={props.aboutClick}>
                         <p class="raintext">about me</p>
                     </a>
-                    <a class="raindrop">
-                        <p class="raintext">certs</p>
+                    <a class="raindrop" onClick={props.skillsClick}>
+                        <p class="raintext">skills</p>
                     </a>
                     <a class="raindrop" data-toggle="modal" data-target="#resumeModal">
                         <p class="raintext">resume</p>

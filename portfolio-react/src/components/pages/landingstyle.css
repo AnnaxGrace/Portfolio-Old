@@ -45,10 +45,23 @@ path.cloudDrawn {
   margin-left: 95%;
 }
 
+.skills-close-btn {
+  font-size: 34px;
+  margin-left: 85%;
+  margin-top: 100px;
+}
+
 .close-btn:hover {
   color: #FF007F;
 }
 
+.skills-close-btn:hover {
+  color: #FF007F;
+}
+
+/* .skills-list{
+  margin-top: 150px;
+} */
 .close-btn-resume {
   color: #FF007F;
   margin-right: 2%;
