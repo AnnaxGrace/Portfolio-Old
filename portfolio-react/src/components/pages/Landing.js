@@ -39,6 +39,10 @@ function Landing() {
         setSkillsState("hide")
     }
 
+    function awsCertExplanation() {
+        console.log('yay')
+    }
+
 
 
     return (
@@ -98,21 +102,25 @@ function Landing() {
                 </div>
 
                 {/* skills div */}
-                <div div id={skillsState} className="mt-5 col-lg-7 col-md-12 col-sm-12 justify-content-center">
-                <button type="button" class="btn skills-close-btn" onClick={closeButton}>x</button>
+                <div div id={skillsState} className="mt-3 col-lg-7 col-md-12 col-sm-12 justify-content-center">
+                    <button type="button" class="btn skills-close-btn" onClick={closeButton}>x</button>
                     <div class="row mb-3 skills-list">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item clickable-skills" onClick={awsCertExplanation}>Automation and Orchestration</li>
+                            <li class="list-group-item clickable-skills">HTML</li>
+                            <li class="list-group-item clickable-skills">IaC</li>
+                            <li class="list-group-item clickable-skills">Java</li>
+                            <li class="list-group-item clickable-skills">JavaScript, React</li>
+                            <li class="list-group-item clickable-skills">Node.js</li>
+                            <li class="list-group-item clickable-skills">PowerShell</li>
+                            <li class="list-group-item clickable-skills">SQL</li>
                         </ul>
                     </div>
                     <div class="row justify-content-center mb-5">
-                        <img src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
-                        <img src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
-                        <img src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                        <img class="clickable-skills-certs" onClick={awsCertExplanation} src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
+                        <img class="clickable-skills-certs" src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
+                        <img class="clickable-skills-certs" src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                        <img class="clickable-skills-certs" src={require("../pages/Images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
                     </div>
 
                 </div>

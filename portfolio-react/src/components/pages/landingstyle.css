@@ -48,7 +48,7 @@ path.cloudDrawn {
 .skills-close-btn {
   font-size: 34px;
   margin-left: 85%;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .close-btn:hover {
@@ -57,6 +57,26 @@ path.cloudDrawn {
 
 .skills-close-btn:hover {
   color: #FF007F;
+}
+
+.clickable-skills {
+  /* border-bottom: solid #2878eb; */
+  /* border-bottom: solid #FF007F; */
+}
+
+.clickable-skills:hover {
+  /* text-decoration: underline;
+  text-decoration-color: #FF007F; */
+  color: #FF007F;
+  /* color: #2878eb; */
+  /* padding-bottom: 5px; */
+  cursor: pointer;
+}
+
+.clickable-skills-certs:hover {
+  border-bottom: solid #FF007F;
+  padding-bottom: 5px;
+  cursor: pointer;
 }
 
 /* .skills-list{
