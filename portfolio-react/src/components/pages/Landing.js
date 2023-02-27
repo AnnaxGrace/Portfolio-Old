@@ -10,6 +10,7 @@ function Landing() {
     const [aboutState, setAboutState] = useState("hide")
     const [resumeState, setResumeState] = useState("hide")
     const [skillsState, setSkillsState] = useState("hide")
+    const [certState, setCertState] = useState({terraform: "hide", aws: "hide"})
 
 
     //shows the about information
@@ -39,8 +40,12 @@ function Landing() {
         setSkillsState("hide")
     }
 
-    function awsCertExplanation() {
-        console.log('yay')
+    function showSkill(skill){
+        
+    }
+
+    function showCert(cert){
+        setCertState({...certState, [cert]: "show"})
     }
 
 
@@ -102,11 +107,12 @@ function Landing() {
                 </div>
 
                 {/* skills div */}
-                <div div id={skillsState} className="mt-3 col-lg-7 col-md-12 col-sm-12 justify-content-center">
+                <div id={skillsState} className="mt-3 col-lg-7 col-md-12 col-sm-12 justify-content-center">
                     <button type="button" class="btn skills-close-btn" onClick={closeButton}>x</button>
                     <div class="row mb-3 skills-list">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item clickable-skills" onClick={awsCertExplanation}>Automation and Orchestration</li>
+
+                        <ul class="col-md-4 list-group list-group-flush">
+                            <li class="list-group-item clickable-skills" onClick={() => showSkill('automation')}>Automation and Orchestration</li>
                             <li class="list-group-item clickable-skills">HTML</li>
                             <li class="list-group-item clickable-skills">IaC</li>
                             <li class="list-group-item clickable-skills">Java</li>
@@ -115,12 +121,18 @@ function Landing() {
                             <li class="list-group-item clickable-skills">PowerShell</li>
                             <li class="list-group-item clickable-skills">SQL</li>
                         </ul>
+
+                        <p id={certState.terraform} class="col-md-8 cert-paragraph">
+                            The Terraform Associate certification is for Cloud Engineers specializing in operations, IT, or development who know the basic concepts and skills associated with open source HashiCorp Terraform.
+                        </p>
+
                     </div>
-                    <div class="row justify-content-center mb-5">
-                        <img class="clickable-skills-certs" onClick={awsCertExplanation} src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
-                        <img class="clickable-skills-certs" src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
-                        <img class="clickable-skills-certs" src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
-                        <img class="clickable-skills-certs" src={require("../pages/Images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
+
+                    <div class="row justify-content-center certs mb-5">
+                        <img class="clickable-skills-certs" onClick={() => showCert('aws')} src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showCert('SAFe')} src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showCert('terraform')} src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showCert('gcp')} src={require("../pages/Images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
                     </div>
 
                 </div>

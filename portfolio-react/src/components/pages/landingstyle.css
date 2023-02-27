@@ -79,6 +79,10 @@ path.cloudDrawn {
   cursor: pointer;
 }
 
+.certs {
+  margin-left: 70px;
+}
+
 /* .skills-list{
   margin-top: 150px;
 } */
@@ -87,6 +91,11 @@ path.cloudDrawn {
   margin-right: 2%;
   font-size: 45px;
   opacity: 1;
+}
+
+.cert-paragraph {
+  padding: 50px;
+  padding-right: 150px;
 }
 
 
