@@ -10,7 +10,8 @@ function Landing() {
     const [aboutState, setAboutState] = useState("hide")
     const [resumeState, setResumeState] = useState("hide")
     const [skillsState, setSkillsState] = useState("hide")
-    const [certState, setCertState] = useState({terraform: "hide", aws: "hide"})
+    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide" })
+    // const [certState, setCertState] = useState({terraform: "hide", aws: "hide"})
 
 
     //shows the about information
@@ -40,12 +41,18 @@ function Landing() {
         setSkillsState("hide")
     }
 
-    function showSkill(skill){
-        
-    }
+    // function showSkill(skill){
 
-    function showCert(cert){
-        setCertState({...certState, [cert]: "show"})
+    // }
+
+    function showSkill(skill) {
+        Object.keys(skillsExplanation).forEach((item) => {
+            if (item !== [skill]) {
+                skillsExplanation[item] = "hide"
+            }
+        })
+        console.log(skillsExplanation)
+        setSkillsExplanation({ ...skillsExplanation, [skill]: "show" })
     }
 
 
@@ -122,17 +129,30 @@ function Landing() {
                             <li class="list-group-item clickable-skills">SQL</li>
                         </ul>
 
-                        <p id={certState.terraform} class="col-md-8 cert-paragraph">
-                            The Terraform Associate certification is for Cloud Engineers specializing in operations, IT, or development who know the basic concepts and skills associated with open source HashiCorp Terraform.
-                        </p>
+                        <div id={skillsExplanation.terraform} class="col-md-8 cert-paragraph">
+                            <p>
+                                "The Terraform Associate certification is for Cloud Engineers specializing in operations, IT, or development who know the basic concepts and skills associated with open source HashiCorp Terraform." <em><a href="https://www.hashicorp.com/certification/terraform-associate">HashiCorp</a></em>
+                            </p>
+                            <p>
+                                Terraform is a cloud-agnostic Infrastructure-as-Code tool. I have built solutions using Terraform for GCP, AWS, and Azure. I am proficient in other Terraform related HashiCorp tools, such as Terraform Cloud and Terraform Sentinel. Terraform is one of my favorite tools, and really enables DevOps practices such as automation and collaboration.
+                            </p>
+                        </div>
+
+                        <div id={skillsExplanation.aws} class="col-md-8 cert-paragraph">
+                            <p>
+                                ?
+                            </p>
+                            <p>
+                            </p>
+                        </div>
 
                     </div>
 
                     <div class="row justify-content-center certs mb-5">
-                        <img class="clickable-skills-certs" onClick={() => showCert('aws')} src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
-                        <img class="clickable-skills-certs" onClick={() => showCert('SAFe')} src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
-                        <img class="clickable-skills-certs" onClick={() => showCert('terraform')} src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
-                        <img class="clickable-skills-certs" onClick={() => showCert('gcp')} src={require("../pages/Images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showSkill('aws')} src={require("../pages/Images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showSkill('SAFe')} src={require("../pages/Images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../pages/Images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                        <img class="clickable-skills-certs" onClick={() => showSkill('gcp')} src={require("../pages/Images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
                     </div>
 
                 </div>
